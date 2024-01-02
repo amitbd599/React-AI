@@ -59,89 +59,89 @@ const HeaderOne = () => {
                         <div className="col-xl-3 col-lg-2 col-md-6 col-6">
                             <div className="logo-area">
                                 <div className="logo">
-                                    <a href="index.html">
+                                    <Link to="index">
                                         <img
                                             className="img-fluid"
                                             src="assets/img/common/logo-white.png"
                                             alt=""
                                         />
-                                    </a>
+                                    </Link>
                                 </div>
                             </div>
                         </div>
                         <div className="col-xl-7 col-lg-7 col-md-6 col-6">
-                            <div className="menu-area menu-padding">
+                            <div className="menu-area menu-padding d-none d-lg-block">
                                 <div className="main-menu">
-                                    <nav className='offcanvas-navigation' id='offcanvas-navigation'>
+                                    <nav >
                                         <ul>
                                             <li className="has-dropdown">
-                                                <a href="index.html">Home</a>
+                                                <Link to="index">Home</Link>
                                                 <ul className="sub-menu">
                                                     <li className="active">
-                                                        <a href="index.html">Home One</a>
+                                                        <Link to="index">Home One</Link>
                                                     </li>
                                                     <li>
-                                                        <a href="index-2.html">Home Two</a>
+                                                        <Link to="index-2">Home Two</Link>
                                                     </li>
                                                     <li>
-                                                        <a href="index-3.html">Home Three</a>
+                                                        <Link to="index-3">Home Three</Link>
                                                     </li>
                                                 </ul>
                                             </li>
                                             <li>
-                                                <a href="about.html">About Us</a>
+                                                <Link to="about">About Us</Link>
                                             </li>
                                             <li className="has-dropdown">
-                                                <a href="#">Pages</a>
+                                                <Link to="#">Pages</Link>
                                                 <ul className="sub-menu">
                                                     <li>
-                                                        <a href="team.html">Team</a>
+                                                        <Link to="team">Team</Link>
                                                     </li>
                                                     <li>
-                                                        <a href="project.html">Project</a>
+                                                        <Link to="project">Project</Link>
                                                     </li>
                                                     <li>
-                                                        <a href="project-details.html">Project Details</a>
+                                                        <Link to="project-details">Project Details</Link>
                                                     </li>
                                                     <li>
-                                                        <a href="service.html">Service</a>
+                                                        <Link to="service">Service</Link>
                                                     </li>
                                                     <li>
-                                                        <a href="service-details.html">Service Details</a>
+                                                        <Link to="service-details">Service Details</Link>
                                                     </li>
                                                     <li>
-                                                        <a href="pricing.html">Pricing</a>
+                                                        <Link to="pricing">Pricing</Link>
                                                     </li>
                                                     <li>
-                                                        <a href="review.html">Review</a>
+                                                        <Link to="review">Review</Link>
                                                     </li>
                                                     <li>
-                                                        <a href="faq.html">FAQ</a>
+                                                        <Link to="faq">FAQ</Link>
                                                     </li>
                                                     <li>
-                                                        <a href="404.html">404 Page</a>
+                                                        <Link to="404">404 Page</Link>
                                                     </li>
                                                 </ul>
                                             </li>
                                             <li className="has-dropdown">
-                                                <a href="blog-grid.html">Blog</a>
+                                                <Link to="blog-grid">Blog</Link>
                                                 <ul className="sub-menu">
                                                     <li>
-                                                        <a href="blog-grid.html">Blog-Grid</a>
+                                                        <Link to="blog-grid">Blog-Grid</Link>
                                                     </li>
                                                     <li>
-                                                        <a href="blog-grid-sidebar.html">Blog-Grid Sidebar</a>
+                                                        <Link to="blog-grid-sidebar">Blog-Grid Sidebar</Link>
                                                     </li>
                                                     <li>
-                                                        <a href="blog-list.html">Blog-List</a>
+                                                        <Link to="blog-list">Blog-List</Link>
                                                     </li>
                                                     <li>
-                                                        <a href="blog-details.html">Blog Details</a>
+                                                        <Link to="blog-details">Blog Details</Link>
                                                     </li>
                                                 </ul>
                                             </li>
                                             <li>
-                                                <a href="contact.html">Contact</a>
+                                                <Link to="contact">Contact</Link>
                                             </li>
                                         </ul>
                                     </nav>
@@ -158,9 +158,9 @@ const HeaderOne = () => {
                         </div>
                         <div className="col-xl-2 col-lg-3 d-none d-lg-block">
                             <div className="d-adjust">
-                                <a className="default-btn" href="contact.html">
+                                <Link className="default-btn" to="contact">
                                     Try It Free Now
-                                </a>
+                                </Link>
                             </div>
                         </div>
                     </div>
@@ -178,9 +178,9 @@ const HeaderOne = () => {
                     </div>
                     <div className="sidebar__content">
                         <div className="sidebar-logo mb-40 mt-40">
-                            <a href="index.html">
+                            <Link to="index">
                                 <img src="assets/img/common/logo-white.png" alt="logo" />
-                            </a>
+                            </Link>
                         </div>
                         <div className="sidebar__search mb-25">
                             <form action="#">
@@ -190,25 +190,98 @@ const HeaderOne = () => {
                                 </button>
                             </form>
                         </div>
-                        <div className="mobile-menu fix" />
+                        <nav className='offcanvas-navigation' id='offcanvas-navigation'>
+                            <ul>
+                                <li className="menu-item-has-children">
+                                    <Link to="index">Home</Link>
+                                    <ul className="sub-menu">
+                                        <li className="active">
+                                            <Link to="index">Home One</Link>
+                                        </li>
+                                        <li>
+                                            <Link to="index-2">Home Two</Link>
+                                        </li>
+                                        <li>
+                                            <Link to="index-3">Home Three</Link>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <Link to="about">About Us</Link>
+                                </li>
+                                <li className="menu-item-has-children">
+                                    <Link to="#">Pages</Link>
+                                    <ul className="sub-menu">
+                                        <li>
+                                            <Link to="team">Team</Link>
+                                        </li>
+                                        <li>
+                                            <Link to="project">Project</Link>
+                                        </li>
+                                        <li>
+                                            <Link to="project-details">Project Details</Link>
+                                        </li>
+                                        <li>
+                                            <Link to="service">Service</Link>
+                                        </li>
+                                        <li>
+                                            <Link to="service-details">Service Details</Link>
+                                        </li>
+                                        <li>
+                                            <Link to="pricing">Pricing</Link>
+                                        </li>
+                                        <li>
+                                            <Link to="review">Review</Link>
+                                        </li>
+                                        <li>
+                                            <Link to="faq">FAQ</Link>
+                                        </li>
+                                        <li>
+                                            <Link to="404">404 Page</Link>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li className="has-dropdown">
+                                    <Link to="blog-grid">Blog</Link>
+                                    <ul className="sub-menu">
+                                        <li>
+                                            <Link to="blog-grid">Blog-Grid</Link>
+                                        </li>
+                                        <li>
+                                            <Link to="blog-grid-sidebar">Blog-Grid Sidebar</Link>
+                                        </li>
+                                        <li>
+                                            <Link to="blog-list">Blog-List</Link>
+                                        </li>
+                                        <li>
+                                            <Link to="blog-details">Blog Details</Link>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <Link to="contact">Contact</Link>
+                                </li>
+                            </ul>
+                        </nav>
+
                         <div className="mobile-footer">
                             <div className="follow">
                                 <div className="title">
                                     <h3>Follow Us:</h3>
                                 </div>
                                 <div className="social one">
-                                    <a href="#">
+                                    <Link to="#">
                                         <i className="fa-brands fa-facebook-f" />
-                                    </a>
-                                    <a href="#">
+                                    </Link>
+                                    <Link to="#">
                                         <i className="fa-brands fa-twitter" />
-                                    </a>
-                                    <a href="#">
+                                    </Link>
+                                    <Link to="#">
                                         <i className="fa-brands fa-linkedin-in" />
-                                    </a>
-                                    <a href="#">
+                                    </Link>
+                                    <Link to="#">
                                         <i className="fa-brands fa-instagram" />
-                                    </a>
+                                    </Link>
                                 </div>
                             </div>
                             <div className="contact">

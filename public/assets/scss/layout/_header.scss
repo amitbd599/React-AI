@@ -471,6 +471,8 @@
       }
     }
 
+
+    
     // .main-menu {
     //   z-index: 99;
     //   position: relative;
@@ -576,6 +578,113 @@
     //     }
     //   }
     // }
+  }
+}
+
+
+.offcanvas-navigation {
+  margin-bottom: 20px;
+  & > ul {
+    & > li {
+      &.menu-item-has-children {
+        & > .sub-menu {
+          height: 0;
+          visibility: hidden;
+          opacity: 0;
+          transition: 0.3s;
+        }
+
+        &.active {
+          & > .sub-menu {
+            height: 100%;
+            visibility: visible;
+            opacity: 1;
+
+            li a {
+              padding-left: 20px;
+
+              display: block;
+              width: 100%;
+              color: var(--text_color);
+              border-top: 1px solid #ebebeb;
+              font-size: 14px;
+              line-height: 1.5;
+              font-weight: 700;
+              text-transform: uppercase;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  ul {
+    &.sub-menu {
+      transition: 0.3s;
+    }
+    li {
+      &.menu-item-has-children {
+        position: relative;
+        display: block;
+        a {
+          display: block;
+        }
+
+        &.active {
+          & > .menu-expand {
+            svg {
+              &:before {
+                transform: rotate(0);
+              }
+            }
+          }
+        }
+
+        .menu-expand {
+          position: absolute;
+          left: auto;
+          right: 46px;
+          top: -5px;
+          width: 30px;
+          height: 50px;
+          line-height: 50px;
+          cursor: pointer;
+          text-align: center;
+          @media #{$xs} {
+            right: 0;
+          }
+
+          i {
+            display: block;
+            margin-top: 25px;
+            border-bottom: 1px solid;
+            position: relative;
+            width: 10px;
+            transition: all 250ms ease-out;
+            &:before {
+              width: 100%;
+              content: "";
+              border-bottom: 1px solid;
+              display: block;
+              position: absolute;
+              top: 0;
+              transform: rotate(90deg);
+            }
+          }
+        }
+      }
+      a {
+        display: block;
+        width: 100%;
+        padding: 10px 0;
+        color: var(--text_color);
+        border-top: 1px solid #ebebeb;
+        font-size: 14px;
+        line-height: 1.5;
+        font-weight: 700;
+        text-transform: uppercase;
+      }
+    }
   }
 }
 

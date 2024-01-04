@@ -8,6 +8,7 @@
   padding: 120px 0;
   position: relative;
   z-index: 9;
+  overflow: hidden;
   &.one {
     background: var(--common-body-2);
     .section-title-shape-one {

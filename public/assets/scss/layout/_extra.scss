@@ -1,0 +1,22 @@
+@use "../utils" as *;
+
+/*----------------------------------------*/
+/* 19. Extra
+/*----------------------------------------*/
+
+.team-one .swiper .swiper-pagination-bullet {
+  width: 12px;
+  height: 12px;
+  border-radius: 2px;
+  background: #fff;
+  opacity: 1;
+  display: inline-block;
+  -webkit-transition: all 0.1s linear;
+  -o-transition: all 0.1s linear;
+  transition: all 0.1s linear;
+  &.swiper-pagination-bullet-active {
+    border-radius: 2px;
+    width: 16px;
+    background: var(--theme-1);
+  }
+}

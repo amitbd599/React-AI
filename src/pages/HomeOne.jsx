@@ -7,6 +7,12 @@ import ServiceSectionOne from '../components/ServiceSectionOne'
 import FAQSectionOne from '../components/FAQSectionOne'
 import ProjectSectionOne from '../components/ProjectSectionOne'
 import TeamSectionOne from '../components/TeamSectionOne'
+import CounterSectionOne from '../components/CounterSectionOne'
+import PriceSectionOne from '../components/PriceSectionOne'
+import TestimonialSectionOne from '../components/TestimonialSectionOne'
+import BlogSectionOne from '../components/BlogSectionOne'
+import NewsSectionOne from '../components/NewsSectionOne'
+import FooterSectionOne from '../components/FooterSectionOne'
 
 
 
@@ -36,9 +42,23 @@ const HomeOne = () => {
                 {/* Team Section One */}
                 <TeamSectionOne />
 
+                {/* Counter Section One */}
+                <CounterSectionOne />
 
+                {/* Price Section One */}
+                <PriceSectionOne />
 
+                {/* Testimonial Section One */}
+                <TestimonialSectionOne />
 
+                {/* Blog Section One */}
+                <BlogSectionOne />
+
+                {/* News Section One */}
+                <NewsSectionOne />
+
+                {/* Footer Section One */}
+                <FooterSectionOne />
 
             </Suspense>
         </Fragment>

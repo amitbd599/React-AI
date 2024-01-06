@@ -78,13 +78,13 @@ const HeaderOne = () => {
                                                 <Link to="index">Home</Link>
                                                 <ul className="sub-menu">
                                                     <li className="active">
-                                                        <Link to="index">Home One</Link>
+                                                        <Link to="/index">Home One</Link>
                                                     </li>
                                                     <li>
-                                                        <Link to="index-2">Home Two</Link>
+                                                        <Link to="/index-2">Home Two</Link>
                                                     </li>
                                                     <li>
-                                                        <Link to="index-3">Home Three</Link>
+                                                        <Link to="/index-3">Home Three</Link>
                                                     </li>
                                                 </ul>
                                             </li>

@@ -351,7 +351,7 @@
     &::after {
       position: absolute;
       content: "";
-      // background: url(../img/shape/13_shape.png);
+      background: url("~/public/assets/img/shape/13_shape.png");
       right: -110px;
       top: 0;
       z-index: 9;
@@ -471,8 +471,6 @@
       }
     }
 
-
-    
     // .main-menu {
     //   z-index: 99;
     //   position: relative;
@@ -580,7 +578,6 @@
     // }
   }
 }
-
 
 .offcanvas-navigation {
   margin-bottom: 20px;

@@ -1,7 +1,6 @@
 import React, { Fragment, Suspense } from 'react'
 import Preloader from '../elements/Preloader'
 import HeaderOne from '../components/HeaderOne'
-import Footer from '../components/Footer'
 
 
 

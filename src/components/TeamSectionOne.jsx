@@ -1,6 +1,5 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Pagination } from "swiper";
 
 const TeamSectionOne = () => {
     return (
@@ -32,10 +31,8 @@ const TeamSectionOne = () => {
                             <div className="swiper-wrapper">
                                 <Swiper
                                     loop={true}
-                                    modules={[Pagination]}
                                     spaceBetween={20}
                                     slidesPerView={4}
-                                    slidesPerGroup={2}
                                     speed={1000}
                                     pagination={{ clickable: true }}
                                     autoplay={{ delay: 6000 }}
@@ -298,7 +295,6 @@ const TeamSectionOne = () => {
                                             </div>
                                         </div>
                                     </SwiperSlide>
-                                    <div className="team-version-one-pagination pagination-button-design-one" />
                                 </Swiper>
                             </div>
                         </div>

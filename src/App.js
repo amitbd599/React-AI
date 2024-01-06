@@ -7,6 +7,9 @@ import HomeThree from "./pages/HomeThree";
 import Error from "./pages/Error";
 import About from "./pages/About";
 import BlogDetails from "./pages/BlogDetails";
+import BlogGridSidebar from "./pages/BlogGridSidebar";
+import BlogGrid from "./pages/BlogGrid";
+import BlogList from "./pages/BlogList";
 
 function App() {
   return (
@@ -18,6 +21,9 @@ function App() {
         <Route exact path="/index-2" element={<HomeTwo />} />
         <Route exact path="/index-3" element={<HomeThree />} />
         <Route exact path="/about" element={<About />} />
+        <Route exact path="/blog-list" element={<BlogList />} />
+        <Route exact path="/blog-grid" element={<BlogGrid />} />
+        <Route exact path="/blog-grid-sidebar" element={<BlogGridSidebar />} />
         <Route exact path="/blog-details" element={<BlogDetails />} />
         <Route exact path="*" element={<Error />} />
       </Routes>

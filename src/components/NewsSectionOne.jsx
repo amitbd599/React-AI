@@ -14,9 +14,9 @@ const NewsSectionOne = () => {
           <div className="row">
             <div className="col-lg-6 col-12">
               <div
-                className="left-wrapper wow animated fadeInLeft"
-                data-wow-duration="1s"
-                data-wow-delay="0.3s"
+                className="left-wrapper "
+                data-aos="fade-right"
+                data-aos-delay="300"
               >
                 <h5>Newsletter</h5>
                 <h2>
@@ -26,9 +26,9 @@ const NewsSectionOne = () => {
             </div>
             <div className="col-lg-6 col-12">
               <div
-                className="right-wrapper wow animated fadeInRight"
-                data-wow-duration="1s"
-                data-wow-delay="0.3s"
+                className="right-wrapper "
+                data-aos="fade-left"
+                data-aos-delay="300"
               >
                 <form action="#">
                   <div className="input-box">

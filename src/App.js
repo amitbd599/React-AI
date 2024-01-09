@@ -19,11 +19,23 @@ import Review from "./pages/Review";
 import ServicesDetails from "./pages/ServicesDetails";
 import Service from "./pages/Service";
 import Team from "./pages/Team";
-
+import { useEffect } from "react";
+import RouteScrollToTop from "./elements/RouteScrollToTop";
+import AOS from "aos";
+import "aos/dist/aos.css";
 function App() {
+  useEffect(() => {
+    AOS.init({
+      offset: 0,
+      easing: "ease",
+      once: true,
+      duration: 1200,
+    });
+    AOS.refresh();
+  }, []);
   return (
     <BrowserRouter>
-      {/* <RouteScrollToTop /> */}
+      <RouteScrollToTop />
       <Routes>
         <Route exact path="/" element={<Demo />} />
         <Route exact path="/index" element={<HomeOne />} />

@@ -8,7 +8,7 @@ const ProjectDetailsSection = () => {
         <div className="container">
           <div className="row">
             <div className="col-12">
-              <div className="main-img">
+              <div className="main-img" data-aos="fade-up" data-aos-delay="300">
                 <img
                   className="img-fluid rounded"
                   src="/assets/img/project/09_project.png"
@@ -18,11 +18,11 @@ const ProjectDetailsSection = () => {
             </div>
           </div>
           <div className="row">
-            <div className="col-lg-8">
+            <div className="col-lg-8" data-aos="fade-up" data-aos-delay="300">
               <div className="title">
                 <h2>
                   Robotics is a branch of engineering that involves the
-                  conception.{" "}
+                  conception.
                 </h2>
               </div>
               <div className="inner-des">
@@ -54,16 +54,16 @@ const ProjectDetailsSection = () => {
                 </p>
                 <div className="grid-action mt-2">
                   <img
-                    className="img-fluid wow animated fadeInLeft"
-                    data-wow-duration="1s"
-                    data-wow-delay="0.2s"
+                    className="img-fluid "
+                    data-aos="fade-right"
+                    data-aos-delay="300"
                     src="/assets/img/project/01_project.png"
                     alt=""
                   />
                   <img
-                    className="img-fluid wow animated fadeInRight"
-                    data-wow-duration="1s"
-                    data-wow-delay="0.2s"
+                    className="img-fluid "
+                    data-aos="fade-left"
+                    data-aos-delay="300"
                     src="/assets/img/project/02_project.png"
                     alt=""
                   />
@@ -82,7 +82,11 @@ const ProjectDetailsSection = () => {
               </div>
             </div>
             <div className="col-lg-4">
-              <div className="widget-project">
+              <div
+                className="widget-project"
+                data-aos="fade-up"
+                data-aos-delay="300"
+              >
                 <div className="project">
                   <ul>
                     <li>

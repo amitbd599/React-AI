@@ -4,7 +4,11 @@ const ServiceDetailsSection = () => {
   return (
     <>
       {/* Service Details Section Start */}
-      <section className="service-details-section">
+      <section
+        className="service-details-section"
+        data-aos="fade-up"
+        data-aos-delay="300"
+      >
         <div className="auto-container">
           <div className="row">
             <div className="col-lg-6  order-2 order-lg-1">

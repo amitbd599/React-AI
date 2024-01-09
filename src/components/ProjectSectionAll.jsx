@@ -9,9 +9,9 @@ const ProjectSectionAll = () => {
           <div className="row">
             <div className="col-lg-6">
               <div
-                className="project-wrapper wow animated fadeInUp"
-                data-wow-duration="1.5s"
-                data-wow-delay="0.2s"
+                className="project-wrapper "
+                data-aos="fade-up"
+                data-aos-delay="200"
               >
                 <div className="img-file por">
                   <img
@@ -37,9 +37,9 @@ const ProjectSectionAll = () => {
             </div>
             <div className="col-lg-6">
               <div
-                className="project-wrapper wow animated fadeInUp"
-                data-wow-duration="1.5s"
-                data-wow-delay="0.3s"
+                className="project-wrapper "
+                data-aos="fade-up"
+                data-aos-delay="300"
               >
                 <div className="img-file por">
                   <img
@@ -65,9 +65,9 @@ const ProjectSectionAll = () => {
             </div>
             <div className="col-lg-6">
               <div
-                className="project-wrapper wow animated fadeInUp"
-                data-wow-duration="1.5s"
-                data-wow-delay="0.2s"
+                className="project-wrapper "
+                data-aos="fade-up"
+                data-aos-delay="200"
               >
                 <div className="img-file por">
                   <img
@@ -93,9 +93,9 @@ const ProjectSectionAll = () => {
             </div>
             <div className="col-lg-6">
               <div
-                className="project-wrapper wow animated fadeInUp"
-                data-wow-duration="1.5s"
-                data-wow-delay="0.3s"
+                className="project-wrapper"
+                data-aos="fade-up"
+                data-aos-delay="300"
               >
                 <div className="img-file por">
                   <img
@@ -121,9 +121,9 @@ const ProjectSectionAll = () => {
             </div>
             <div className="col-lg-6">
               <div
-                className="project-wrapper wow animated fadeInUp"
-                data-wow-duration="1.5s"
-                data-wow-delay="0.2s"
+                className="project-wrapper "
+                data-aos="fade-up"
+                data-aos-delay="200"
               >
                 <div className="img-file por">
                   <img
@@ -149,9 +149,9 @@ const ProjectSectionAll = () => {
             </div>
             <div className="col-lg-6">
               <div
-                className="project-wrapper wow animated fadeInUp"
-                data-wow-duration="1.5s"
-                data-wow-delay="0.3s"
+                className="project-wrapper "
+                data-aos="fade-up"
+                data-aos-delay="300"
               >
                 <div className="img-file por">
                   <img
@@ -177,9 +177,9 @@ const ProjectSectionAll = () => {
             </div>
             <div className="col-lg-6">
               <div
-                className="project-wrapper wow animated fadeInUp"
-                data-wow-duration="1.5s"
-                data-wow-delay="0.2s"
+                className="project-wrapper "
+                data-aos="fade-up"
+                data-aos-delay="200"
               >
                 <div className="img-file por">
                   <img
@@ -205,9 +205,9 @@ const ProjectSectionAll = () => {
             </div>
             <div className="col-lg-6">
               <div
-                className="project-wrapper wow animated fadeInUp"
-                data-wow-duration="1.5s"
-                data-wow-delay="0.3s"
+                className="project-wrapper "
+                data-aos="fade-up"
+                data-aos-delay="300"
               >
                 <div className="img-file por">
                   <img
@@ -234,7 +234,11 @@ const ProjectSectionAll = () => {
           </div>
           <div className="row">
             <div className="col-12">
-              <div className="pagination">
+              <div
+                className="pagination"
+                data-aos="fade-up"
+                data-aos-delay="300"
+              >
                 <ul>
                   <li>
                     <a href="#">

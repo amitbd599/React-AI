@@ -9,9 +9,9 @@ const BlogGridSection = () => {
           <div className="row">
             <div className="col-lg-4 col-md-6 col-12">
               <div
-                className="blog-items wow animated fadeInUp"
-                data-wow-duration="1.5s"
-                data-wow-delay="0.2s"
+                className="blog-items "
+                data-aos="fade-up"
+                data-aos-delay="300"
               >
                 <div className="img-file">
                   <img
@@ -58,9 +58,9 @@ const BlogGridSection = () => {
             </div>
             <div className="col-lg-4 col-md-6 col-12">
               <div
-                className="blog-items wow animated fadeInUp"
-                data-wow-duration="1.5s"
-                data-wow-delay="0.3s"
+                className="blog-items "
+                data-aos="fade-up"
+                data-aos-delay="400"
               >
                 <div className="img-file">
                   <img
@@ -107,9 +107,9 @@ const BlogGridSection = () => {
             </div>
             <div className="col-lg-4 col-md-6 col-12">
               <div
-                className="blog-items wow animated fadeInUp"
-                data-wow-duration="1.5s"
-                data-wow-delay="0.4s"
+                className="blog-items "
+                data-aos="fade-up"
+                data-aos-delay="500"
               >
                 <div className="img-file">
                   <img
@@ -156,9 +156,9 @@ const BlogGridSection = () => {
             </div>
             <div className="col-lg-4 col-md-6 col-12">
               <div
-                className="blog-items wow animated fadeInUp"
-                data-wow-duration="1.5s"
-                data-wow-delay="0.2s"
+                className="blog-items "
+                data-aos="fade-up"
+                data-aos-delay="300"
               >
                 <div className="img-file">
                   <img
@@ -205,9 +205,9 @@ const BlogGridSection = () => {
             </div>
             <div className="col-lg-4 col-md-6 col-12">
               <div
-                className="blog-items wow animated fadeInUp"
-                data-wow-duration="1.5s"
-                data-wow-delay="0.3s"
+                className="blog-items "
+                data-aos="fade-up"
+                data-aos-delay="300"
               >
                 <div className="img-file">
                   <img
@@ -254,9 +254,9 @@ const BlogGridSection = () => {
             </div>
             <div className="col-lg-4 col-md-6 col-12">
               <div
-                className="blog-items wow animated fadeInUp"
-                data-wow-duration="1.5s"
-                data-wow-delay="0.4s"
+                className="blog-items "
+                data-aos="fade-up"
+                data-aos-delay="400"
               >
                 <div className="img-file">
                   <img
@@ -303,9 +303,9 @@ const BlogGridSection = () => {
             </div>
             <div className="col-lg-4 col-md-6 col-12">
               <div
-                className="blog-items wow animated fadeInUp"
-                data-wow-duration="1.5s"
-                data-wow-delay="0.2s"
+                className="blog-items "
+                data-aos="fade-up"
+                data-aos-delay="300"
               >
                 <div className="img-file">
                   <img
@@ -352,9 +352,9 @@ const BlogGridSection = () => {
             </div>
             <div className="col-lg-4 col-md-6 col-12">
               <div
-                className="blog-items wow animated fadeInUp"
-                data-wow-duration="1.5s"
-                data-wow-delay="0.3s"
+                className="blog-items "
+                data-aos="fade-up"
+                data-aos-delay="400"
               >
                 <div className="img-file">
                   <img
@@ -401,9 +401,9 @@ const BlogGridSection = () => {
             </div>
             <div className="col-lg-4 col-md-6 col-12">
               <div
-                className="blog-items wow animated fadeInUp"
-                data-wow-duration="1.5s"
-                data-wow-delay="0.4s"
+                className="blog-items "
+                data-aos="fade-up"
+                data-aos-delay="500"
               >
                 <div className="img-file">
                   <img
@@ -451,7 +451,11 @@ const BlogGridSection = () => {
           </div>
           <div className="row">
             <div className="col-12">
-              <div className="pagination">
+              <div
+                className="pagination"
+                data-aos="fade-up"
+                data-aos-delay="300"
+              >
                 <ul>
                   <li>
                     <a href="#">

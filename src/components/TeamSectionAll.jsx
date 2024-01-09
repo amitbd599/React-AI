@@ -9,9 +9,9 @@ const TeamSectionAll = () => {
           <div className="row">
             <div className="col-xl-3 col-md-4 col-sm-6 col-12">
               <div
-                className="inner-wrapper wow animated fadeInUp"
-                data-wow-duration="1s"
-                data-wow-delay="0.2s"
+                className="inner-wrapper "
+                data-aos="fade-up"
+                data-aos-delay="200"
               >
                 <div className="img-file">
                   <img
@@ -49,9 +49,9 @@ const TeamSectionAll = () => {
             </div>
             <div className="col-xl-3 col-md-4 col-sm-6 col-12">
               <div
-                className="inner-wrapper wow animated fadeInUp"
-                data-wow-duration="1s"
-                data-wow-delay="0.3s"
+                className="inner-wrapper "
+                data-aos="fade-up"
+                data-aos-delay="300"
               >
                 <div className="img-file">
                   <img
@@ -89,9 +89,9 @@ const TeamSectionAll = () => {
             </div>
             <div className="col-xl-3 col-md-4 col-sm-6 col-12">
               <div
-                className="inner-wrapper wow animated fadeInUp"
-                data-wow-duration="1s"
-                data-wow-delay="0.4s"
+                className="inner-wrapper "
+                data-aos="fade-up"
+                data-aos-delay="400"
               >
                 <div className="img-file">
                   <img
@@ -129,9 +129,9 @@ const TeamSectionAll = () => {
             </div>
             <div className="col-xl-3 col-md-4 col-sm-6 col-12">
               <div
-                className="inner-wrapper wow animated fadeInUp"
-                data-wow-duration="1s"
-                data-wow-delay="0.5s"
+                className="inner-wrapper "
+                data-aos="fade-up"
+                data-aos-delay="500"
               >
                 <div className="img-file">
                   <img
@@ -169,9 +169,9 @@ const TeamSectionAll = () => {
             </div>
             <div className="col-xl-3 col-md-4 col-sm-6 col-12">
               <div
-                className="inner-wrapper wow animated fadeInUp"
-                data-wow-duration="1s"
-                data-wow-delay="0.2s"
+                className="inner-wrapper "
+                data-aos="fade-up"
+                data-aos-delay="200"
               >
                 <div className="img-file">
                   <img
@@ -209,9 +209,9 @@ const TeamSectionAll = () => {
             </div>
             <div className="col-xl-3 col-md-4 col-sm-6 col-12">
               <div
-                className="inner-wrapper wow animated fadeInUp"
-                data-wow-duration="1s"
-                data-wow-delay="0.3s"
+                className="inner-wrapper "
+                data-aos="fade-up"
+                data-aos-delay="300"
               >
                 <div className="img-file">
                   <img
@@ -249,9 +249,9 @@ const TeamSectionAll = () => {
             </div>
             <div className="col-xl-3 col-md-4 col-sm-6 col-12">
               <div
-                className="inner-wrapper wow animated fadeInUp"
-                data-wow-duration="1s"
-                data-wow-delay="0.4s"
+                className="inner-wrapper "
+                data-aos="fade-up"
+                data-aos-delay="400"
               >
                 <div className="img-file">
                   <img
@@ -289,9 +289,9 @@ const TeamSectionAll = () => {
             </div>
             <div className="col-xl-3 col-md-4 col-sm-6 col-12">
               <div
-                className="inner-wrapper wow animated fadeInUp"
-                data-wow-duration="1s"
-                data-wow-delay="0.5s"
+                className="inner-wrapper "
+                data-aos="fade-up"
+                data-aos-delay="500"
               >
                 <div className="img-file">
                   <img
@@ -330,7 +330,11 @@ const TeamSectionAll = () => {
           </div>
           <div className="row">
             <div className="col-12">
-              <div className="pagination">
+              <div
+                className="pagination"
+                data-aos="fade-up"
+                data-aos-delay="300"
+              >
                 <ul>
                   <li>
                     <a href="#">

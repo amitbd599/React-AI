@@ -9,9 +9,9 @@ const ReviewSection = () => {
           <div className="row">
             <div className="col-lg-4 col-md-6 col-12">
               <div
-                className="review-inner wow animated fadeInUp"
-                data-wow-duration="1s"
-                data-wow-delay="0.2s"
+                className="review-inner "
+                data-aos="fade-up"
+                data-aos-delay="200"
               >
                 <div className="review-box">
                   <div className="icons">
@@ -49,9 +49,9 @@ const ReviewSection = () => {
             </div>
             <div className="col-lg-4 col-md-6 col-12">
               <div
-                className="review-inner wow animated fadeInUp"
-                data-wow-duration="1s"
-                data-wow-delay="0.3s"
+                className="review-inner "
+                data-aos="fade-up"
+                data-aos-delay="300"
               >
                 <div className="review-box">
                   <div className="icons">
@@ -89,9 +89,9 @@ const ReviewSection = () => {
             </div>
             <div className="col-lg-4 col-md-6 col-12">
               <div
-                className="review-inner wow animated fadeInUp"
-                data-wow-duration="1s"
-                data-wow-delay="0.4s"
+                className="review-inner "
+                data-aos="fade-up"
+                data-aos-delay="400"
               >
                 <div className="review-box">
                   <div className="icons">
@@ -129,9 +129,9 @@ const ReviewSection = () => {
             </div>
             <div className="col-lg-4 col-md-6 col-12">
               <div
-                className="review-inner wow animated fadeInUp"
-                data-wow-duration="1s"
-                data-wow-delay="0.2s"
+                className="review-inner "
+                data-aos="fade-up"
+                data-aos-delay="200"
               >
                 <div className="review-box">
                   <div className="icons">
@@ -169,9 +169,9 @@ const ReviewSection = () => {
             </div>
             <div className="col-lg-4 col-md-6 col-12">
               <div
-                className="review-inner wow animated fadeInUp"
-                data-wow-duration="1s"
-                data-wow-delay="0.3s"
+                className="review-inner "
+                data-aos="fade-up"
+                data-aos-delay="300"
               >
                 <div className="review-box">
                   <div className="icons">
@@ -209,9 +209,9 @@ const ReviewSection = () => {
             </div>
             <div className="col-lg-4 col-md-6 col-12">
               <div
-                className="review-inner wow animated fadeInUp"
-                data-wow-duration="1s"
-                data-wow-delay="0.4s"
+                className="review-inner "
+                data-aos="fade-up"
+                data-aos-delay="400"
               >
                 <div className="review-box">
                   <div className="icons">
@@ -250,7 +250,11 @@ const ReviewSection = () => {
           </div>
           <div className="row">
             <div className="col-12">
-              <div className="pagination">
+              <div
+                className="pagination"
+                data-aos="fade-up"
+                data-aos-delay="300"
+              >
                 <ul>
                   <li>
                     <a href="#">

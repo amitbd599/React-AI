@@ -11,9 +11,9 @@ const BlogGridSidebarSection = () => {
               <div className="row">
                 <div className="col-lg-6 col-md-6 col-12">
                   <div
-                    className="blog-items wow animated fadeInUp"
-                    data-wow-duration="1.5s"
-                    data-wow-delay="0.2s"
+                    className="blog-items "
+                    data-aos="fade-up"
+                    data-aos-delay="200"
                   >
                     <div className="img-file">
                       <img
@@ -61,9 +61,9 @@ const BlogGridSidebarSection = () => {
                 </div>
                 <div className="col-lg-6 col-md-6 col-12">
                   <div
-                    className="blog-items wow animated fadeInUp"
-                    data-wow-duration="1.5s"
-                    data-wow-delay="0.3s"
+                    className="blog-items "
+                    data-aos="fade-up"
+                    data-aos-delay="300"
                   >
                     <div className="img-file">
                       <img
@@ -110,9 +110,9 @@ const BlogGridSidebarSection = () => {
                 </div>
                 <div className="col-lg-6 col-md-6 col-12">
                   <div
-                    className="blog-items wow animated fadeInUp"
-                    data-wow-duration="1.5s"
-                    data-wow-delay="0.2s"
+                    className="blog-items "
+                    data-aos="fade-up"
+                    data-aos-delay="200"
                   >
                     <div className="img-file">
                       <img
@@ -159,9 +159,9 @@ const BlogGridSidebarSection = () => {
                 </div>
                 <div className="col-lg-6 col-md-6 col-12">
                   <div
-                    className="blog-items wow animated fadeInUp"
-                    data-wow-duration="1.5s"
-                    data-wow-delay="0.3s"
+                    className="blog-items "
+                    data-aos="fade-up"
+                    data-aos-delay="300"
                   >
                     <div className="img-file">
                       <img
@@ -208,9 +208,9 @@ const BlogGridSidebarSection = () => {
                 </div>
                 <div className="col-lg-6 col-md-6 col-12">
                   <div
-                    className="blog-items wow animated fadeInUp"
-                    data-wow-duration="1.5s"
-                    data-wow-delay="0.2s"
+                    className="blog-items "
+                    data-aos="fade-up"
+                    data-aos-delay="200"
                   >
                     <div className="img-file">
                       <img
@@ -257,9 +257,9 @@ const BlogGridSidebarSection = () => {
                 </div>
                 <div className="col-lg-6 col-md-6 col-12">
                   <div
-                    className="blog-items wow animated fadeInUp"
-                    data-wow-duration="1.5s"
-                    data-wow-delay="0.3s"
+                    className="blog-items "
+                    data-aos="fade-up"
+                    data-aos-delay="300"
                   >
                     <div className="img-file">
                       <img
@@ -306,9 +306,9 @@ const BlogGridSidebarSection = () => {
                 </div>
                 <div className="col-lg-6 col-md-6 col-12">
                   <div
-                    className="blog-items wow animated fadeInUp"
-                    data-wow-duration="1.5s"
-                    data-wow-delay="0.2s"
+                    className="blog-items "
+                    data-aos="fade-up"
+                    data-aos-delay="200"
                   >
                     <div className="img-file">
                       <img
@@ -355,9 +355,9 @@ const BlogGridSidebarSection = () => {
                 </div>
                 <div className="col-lg-6 col-md-6 col-12">
                   <div
-                    className="blog-items wow animated fadeInUp"
-                    data-wow-duration="1.5s"
-                    data-wow-delay="0.3s"
+                    className="blog-items "
+                    data-aos="fade-up"
+                    data-aos-delay="300"
                   >
                     <div className="img-file">
                       <img
@@ -405,7 +405,11 @@ const BlogGridSidebarSection = () => {
               </div>
               <div className="row">
                 <div className="col">
-                  <div className="pagination">
+                  <div
+                    className="pagination"
+                    data-aos="fade-up"
+                    data-aos-delay="300"
+                  >
                     <ul>
                       <li>
                         <a href="#">
@@ -438,7 +442,11 @@ const BlogGridSidebarSection = () => {
             </div>
             <div className="col-lg-4">
               <div className="widget-area">
-                <div className="widget widget-search">
+                <div
+                  className="widget widget-search"
+                  data-aos="fade-up"
+                  data-aos-delay="300"
+                >
                   <div className="search">
                     <div className="title">
                       <h2>Search Inside</h2>
@@ -457,7 +465,11 @@ const BlogGridSidebarSection = () => {
                     </div>
                   </div>
                 </div>
-                <div className="widget widget-post">
+                <div
+                  className="widget widget-post"
+                  data-aos="fade-up"
+                  data-aos-delay="300"
+                >
                   <div className="post">
                     <div className="title">
                       <h2>Recent Posts</h2>
@@ -525,7 +537,11 @@ const BlogGridSidebarSection = () => {
                     </article>
                   </div>
                 </div>
-                <div className="widget widget-follow">
+                <div
+                  className="widget widget-follow"
+                  data-aos="fade-up"
+                  data-aos-delay="300"
+                >
                   <div className="follow">
                     <div className="title">
                       <h2>Follow Us</h2>
@@ -561,7 +577,11 @@ const BlogGridSidebarSection = () => {
                     </div>
                   </div>
                 </div>
-                <div className="widget widget-categories">
+                <div
+                  className="widget widget-categories"
+                  data-aos="fade-up"
+                  data-aos-delay="300"
+                >
                   <div className="categories">
                     <div className="title">
                       <h2>Categories</h2>
@@ -608,7 +628,11 @@ const BlogGridSidebarSection = () => {
                     </div>
                   </div>
                 </div>
-                <div className="widget widget-tags">
+                <div
+                  className="widget widget-tags"
+                  data-aos="fade-up"
+                  data-aos-delay="300"
+                >
                   <div className="tags">
                     <div className="title">
                       <h2>Tags</h2>

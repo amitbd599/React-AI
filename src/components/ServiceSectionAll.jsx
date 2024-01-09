@@ -13,9 +13,9 @@ const ServiceSectionAll = () => {
             <div className="col-lg-4 col-md-6">
               <div className="section-wrapper">
                 <div
-                  className="wrapper-inner one wow animated fadeInUp"
-                  data-wow-duration="1.5s"
-                  data-wow-delay="0.2s"
+                  className="wrapper-inner one "
+                  data-aos="fade-up"
+                  data-aos-delay="200"
                 >
                   <div className="img-file">
                     <img src="/assets/img/icon/31_icon.png" alt="" />
@@ -35,9 +35,9 @@ const ServiceSectionAll = () => {
             <div className="col-lg-4 col-md-6">
               <div className="section-wrapper">
                 <div
-                  className="wrapper-inner one wow animated fadeInUp"
-                  data-wow-duration="1.5s"
-                  data-wow-delay="0.3s"
+                  className="wrapper-inner one "
+                  data-aos="fade-up"
+                  data-aos-delay="300"
                 >
                   <div className="img-file">
                     <img src="/assets/img/icon/32_icon.png" alt="" />
@@ -57,9 +57,9 @@ const ServiceSectionAll = () => {
             <div className="col-lg-4 col-md-6">
               <div className="section-wrapper">
                 <div
-                  className="wrapper-inner one wow animated fadeInUp"
-                  data-wow-duration="1.5s"
-                  data-wow-delay="0.4s"
+                  className="wrapper-inner one "
+                  data-aos="fade-up"
+                  data-aos-delay="400"
                 >
                   <div className="img-file">
                     <img src="/assets/img/icon/33_icon.png" alt="" />
@@ -79,9 +79,9 @@ const ServiceSectionAll = () => {
             <div className="col-lg-4 col-md-6">
               <div className="section-wrapper">
                 <div
-                  className="wrapper-inner one wow animated fadeInUp"
-                  data-wow-duration="1.5s"
-                  data-wow-delay="0.2s"
+                  className="wrapper-inner one "
+                  data-aos="fade-up"
+                  data-aos-delay="200"
                 >
                   <div className="img-file">
                     <img src="/assets/img/icon/34_icon.png" alt="" />
@@ -101,9 +101,9 @@ const ServiceSectionAll = () => {
             <div className="col-lg-4 col-md-6">
               <div className="section-wrapper">
                 <div
-                  className="wrapper-inner one wow animated fadeInUp"
-                  data-wow-duration="1.5s"
-                  data-wow-delay="0.3s"
+                  className="wrapper-inner one "
+                  data-aos="fade-up"
+                  data-aos-delay="300"
                 >
                   <div className="img-file">
                     <img src="/assets/img/icon/35_icon.png" alt="" />
@@ -123,9 +123,9 @@ const ServiceSectionAll = () => {
             <div className="col-lg-4 col-md-6">
               <div className="section-wrapper">
                 <div
-                  className="wrapper-inner one wow animated fadeInUp"
-                  data-wow-duration="1.5s"
-                  data-wow-delay="0.4s"
+                  className="wrapper-inner one "
+                  data-aos="fade-up"
+                  data-aos-delay="400"
                 >
                   <div className="img-file">
                     <img src="/assets/img/icon/40_icon.png" alt="" />
@@ -145,9 +145,9 @@ const ServiceSectionAll = () => {
             <div className="col-lg-4 col-md-6">
               <div className="section-wrapper">
                 <div
-                  className="wrapper-inner one wow animated fadeInUp"
-                  data-wow-duration="1.5s"
-                  data-wow-delay="0.2s"
+                  className="wrapper-inner one "
+                  data-aos="fade-up"
+                  data-aos-delay="200"
                 >
                   <div className="img-file">
                     <img src="/assets/img/icon/85_icon.png" alt="" />
@@ -167,9 +167,9 @@ const ServiceSectionAll = () => {
             <div className="col-lg-4 col-md-6">
               <div className="section-wrapper">
                 <div
-                  className="wrapper-inner one wow animated fadeInUp"
-                  data-wow-duration="1.5s"
-                  data-wow-delay="0.3s"
+                  className="wrapper-inner one "
+                  data-aos="fade-up"
+                  data-aos-delay="300"
                 >
                   <div className="img-file">
                     <img src="/assets/img/icon/86_icon.png" alt="" />
@@ -189,9 +189,9 @@ const ServiceSectionAll = () => {
             <div className="col-lg-4 col-md-6">
               <div className="section-wrapper">
                 <div
-                  className="wrapper-inner one wow animated fadeInUp"
-                  data-wow-duration="1.5s"
-                  data-wow-delay="0.4s"
+                  className="wrapper-inner one "
+                  data-aos="fade-up"
+                  data-aos-delay="400"
                 >
                   <div className="img-file">
                     <img src="/assets/img/icon/87_icon.png" alt="" />

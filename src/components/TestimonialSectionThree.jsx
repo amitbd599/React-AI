@@ -10,9 +10,9 @@ const TestimonialSectionThree = () => {
           <div className="row">
             <div className="col-12">
               <div
-                className="section-title-shape-one middle black wow animated fadeInUp"
-                data-wow-duration="1.5s"
-                data-wow-delay="0.2s"
+                className="section-title-shape-one middle black "
+                data-aos="fade-up"
+                data-aos-delay="300"
               >
                 <h3>Our Customer Review</h3>
                 <h2>

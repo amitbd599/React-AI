@@ -370,63 +370,63 @@
               }
             }
           }
-          &.swiper-slide-active {
-            .slide-bg {
-              transform: scale(1.2);
+        }
+        .swiper-slide-active {
+          .slide-bg {
+            transform: scale(1.2);
+          }
+          .slider-content-inner {
+            .sub-title {
+              -webkit-animation-fill-mode: both;
+              animation-fill-mode: both;
+              -webkit-animation-name: heroSliderAnimation;
+              animation-name: heroSliderAnimation;
+              -webkit-animation-delay: 0.5s;
+              animation-delay: 0.5s;
+              -webkit-animation-duration: 0.5s;
+              animation-duration: 0.5s;
             }
-            .slider-content-inner {
-              .sub-title {
-                -webkit-animation-fill-mode: both;
-                animation-fill-mode: both;
-                -webkit-animation-name: heroSliderAnimation;
-                animation-name: heroSliderAnimation;
-                -webkit-animation-delay: 0.5s;
-                animation-delay: 0.5s;
-                -webkit-animation-duration: 0.5s;
-                animation-duration: 0.5s;
-              }
-              .slider-title {
-                -webkit-animation-fill-mode: both;
-                animation-fill-mode: both;
-                -webkit-animation-name: heroSliderAnimation;
-                animation-name: heroSliderAnimation;
-                -webkit-animation-delay: 0.8s;
-                animation-delay: 0.8s;
-                -webkit-animation-duration: 0.8s;
-                animation-duration: 0.8s;
-              }
-              .description {
-                -webkit-animation-fill-mode: both;
-                animation-fill-mode: both;
-                -webkit-animation-name: heroSliderAnimation;
-                animation-name: heroSliderAnimation;
-                -webkit-animation-delay: 1.2s;
-                animation-delay: 1.2s;
-                -webkit-animation-duration: 1.2s;
-                animation-duration: 1.2s;
-              }
-              .inner-btn {
-                -webkit-animation-fill-mode: both;
-                animation-fill-mode: both;
-                -webkit-animation-name: heroSliderAnimation;
-                animation-name: heroSliderAnimation;
-                -webkit-animation-delay: 1.6s;
-                animation-delay: 1.6s;
-                -webkit-animation-duration: 1.6s;
-                animation-duration: 1.6s;
-              }
+            .slider-title {
+              -webkit-animation-fill-mode: both;
+              animation-fill-mode: both;
+              -webkit-animation-name: heroSliderAnimation;
+              animation-name: heroSliderAnimation;
+              -webkit-animation-delay: 0.8s;
+              animation-delay: 0.8s;
+              -webkit-animation-duration: 0.8s;
+              animation-duration: 0.8s;
             }
-            .slider-content-inner-right {
-              .img-wrapper {
-                -webkit-animation-fill-mode: both;
-                animation-fill-mode: both;
-                -webkit-animation-name: heroSliderAnimation;
-                animation-name: heroSliderAnimation;
-                -webkit-animation-delay: 0.8s;
-                animation-delay: 0.8s;
-                -webkit-animation-duration: 0.8s;
-                animation-duration: 0.8s;
-              }
+            .description {
+              -webkit-animation-fill-mode: both;
+              animation-fill-mode: both;
+              -webkit-animation-name: heroSliderAnimation;
+              animation-name: heroSliderAnimation;
+              -webkit-animation-delay: 1.2s;
+              animation-delay: 1.2s;
+              -webkit-animation-duration: 1.2s;
+              animation-duration: 1.2s;
+            }
+            .inner-btn {
+              -webkit-animation-fill-mode: both;
+              animation-fill-mode: both;
+              -webkit-animation-name: heroSliderAnimation;
+              animation-name: heroSliderAnimation;
+              -webkit-animation-delay: 1.6s;
+              animation-delay: 1.6s;
+              -webkit-animation-duration: 1.6s;
+              animation-duration: 1.6s;
+            }
+          }
+          .slider-content-inner-right {
+            .img-wrapper {
+              -webkit-animation-fill-mode: both;
+              animation-fill-mode: both;
+              -webkit-animation-name: heroSliderAnimation;
+              animation-name: heroSliderAnimation;
+              -webkit-animation-delay: 0.8s;
+              animation-delay: 0.8s;
+              -webkit-animation-duration: 0.8s;
+              animation-duration: 0.8s;
             }
           }
         }

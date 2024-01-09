@@ -14,9 +14,15 @@ const Breadcrumb = ({ data }) => {
           <div className="row">
             <div className="col-12">
               <div className="breadcrumb-inner">
-                <h2>{data}</h2>
-                <div className="link-shape">
-                  <a href="index-1.html">Home</a> /<span>{data}</span>
+                <h2 data-aos="fade-up" data-aos-delay="300">
+                  {data}
+                </h2>
+                <div
+                  className="link-shape"
+                  data-aos="fade-up"
+                  data-aos-delay="400"
+                >
+                  <a href="index-1.html">Home</a> / <span>{data}</span>
                 </div>
               </div>
             </div>

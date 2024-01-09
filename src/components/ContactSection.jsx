@@ -22,7 +22,11 @@ const ContactSection = () => {
                 method="POST"
               >
                 <div className="d-block d-md-flex gap-0">
-                  <div className="form-author">
+                  <div
+                    className="form-author"
+                    data-aos="fade-up"
+                    data-aos-delay="200"
+                  >
                     <label>
                       Name <span className="required">*</span>
                     </label>
@@ -33,7 +37,11 @@ const ContactSection = () => {
                       required="required"
                     />
                   </div>
-                  <div className="form-email mt-2 mt-md-0">
+                  <div
+                    className="form-email mt-2 mt-md-0"
+                    data-aos="fade-up"
+                    data-aos-delay="300"
+                  >
                     <label>
                       Email <span className="required">*</span>
                     </label>
@@ -46,7 +54,11 @@ const ContactSection = () => {
                   </div>
                 </div>
                 <div className="d-block d-md-flex gap-0 mt-2">
-                  <div className="form-author">
+                  <div
+                    className="form-author"
+                    data-aos="fade-up"
+                    data-aos-delay="200"
+                  >
                     <label>
                       Subject <span className="required">*</span>
                     </label>
@@ -57,12 +69,20 @@ const ContactSection = () => {
                       required="required"
                     />
                   </div>
-                  <div className="form-web mt-2 mt-md-0">
+                  <div
+                    className="form-web mt-2 mt-md-0"
+                    data-aos="fade-up"
+                    data-aos-delay="300"
+                  >
                     <label>Website</label>
                     <input type="url" id="url" name="url" />
                   </div>
                 </div>
-                <div className="form-comment mt-2">
+                <div
+                  className="form-comment mt-2"
+                  data-aos="fade-up"
+                  data-aos-delay="300"
+                >
                   <label>
                     Massage <span className="required">*</span>
                   </label>
@@ -73,7 +93,11 @@ const ContactSection = () => {
                     defaultValue={""}
                   />
                 </div>
-                <div className="form-submit">
+                <div
+                  className="form-submit"
+                  data-aos="fade-up"
+                  data-aos-delay="300"
+                >
                   <div className="inner-btn">
                     <div>
                       <button className="default-btn" type="submit">
@@ -125,11 +149,7 @@ const ContactSection = () => {
           </div>
           <div className="row location-tag">
             <div className="col-lg-3 col-md-6 col-12">
-              <div
-                className="item wow animated fadeInUp"
-                data-wow-duration="1.5s"
-                data-wow-delay="0.2s"
-              >
+              <div className="item " data-aos="fade-up" data-aos-delay="300">
                 <div className="icon">
                   <i className="fa-sharp fa-solid fa-location-dot" />
                 </div>
@@ -140,11 +160,7 @@ const ContactSection = () => {
               </div>
             </div>
             <div className="col-lg-3 col-md-6 col-12">
-              <div
-                className="item wow animated fadeInUp"
-                data-wow-duration="1.5s"
-                data-wow-delay="0.3s"
-              >
+              <div className="item " data-aos="fade-up" data-aos-delay="400">
                 <div className="icon">
                   <i className="fa-solid fa-headset" />
                 </div>
@@ -156,11 +172,7 @@ const ContactSection = () => {
               </div>
             </div>
             <div className="col-lg-3 col-md-6 col-12">
-              <div
-                className="item wow animated fadeInUp"
-                data-wow-duration="1.5s"
-                data-wow-delay="0.3s"
-              >
+              <div className="item " data-aos="fade-up" data-aos-delay="400">
                 <div className="icon">
                   <i className="fa-regular fa-messages" />
                 </div>
@@ -171,11 +183,7 @@ const ContactSection = () => {
               </div>
             </div>
             <div className="col-lg-3 col-md-6 col-12">
-              <div
-                className="item wow animated fadeInUp"
-                data-wow-duration="1.5s"
-                data-wow-delay="0.4s"
-              >
+              <div className="item " data-aos="fade-up" data-aos-delay="500">
                 <div className="icon">
                   <i className="fa-solid fa-envelope" />
                 </div>

@@ -9,14 +9,22 @@ const BlogListSection = () => {
           <div className="row">
             <div className="col-lg-8">
               <div className="blog-items">
-                <div className="img-file">
+                <div
+                  className="img-file"
+                  data-aos="fade-up"
+                  data-aos-delay="200"
+                >
                   <img
                     className="img-fluid"
                     src="/assets/img/blog/10_blog.png"
                     alt=""
                   />
                 </div>
-                <div className="text-file">
+                <div
+                  className="text-file"
+                  data-aos="fade-up"
+                  data-aos-delay="300"
+                >
                   <div className="intro">
                     <div className="item">
                       <div className="date d-flex gap-2 align-items-center">
@@ -64,14 +72,22 @@ const BlogListSection = () => {
                 </div>
               </div>
               <div className="blog-items">
-                <div className="img-file">
+                <div
+                  className="img-file"
+                  data-aos="fade-up"
+                  data-aos-delay="200"
+                >
                   <img
                     className="img-fluid"
                     src="/assets/img/blog/11_blog.png"
                     alt=""
                   />
                 </div>
-                <div className="text-file">
+                <div
+                  className="text-file"
+                  data-aos="fade-up"
+                  data-aos-delay="300"
+                >
                   <div className="intro">
                     <div className="item">
                       <div className="date d-flex gap-2 align-items-center">
@@ -119,14 +135,22 @@ const BlogListSection = () => {
                 </div>
               </div>
               <div className="blog-items">
-                <div className="img-file">
+                <div
+                  className="img-file"
+                  data-aos="fade-up"
+                  data-aos-delay="200"
+                >
                   <img
                     className="img-fluid"
                     src="/assets/img/blog/12_blog.png"
                     alt=""
                   />
                 </div>
-                <div className="text-file">
+                <div
+                  className="text-file"
+                  data-aos="fade-up"
+                  data-aos-delay="300"
+                >
                   <div className="intro">
                     <div className="item">
                       <div className="date d-flex gap-2 align-items-center">
@@ -176,7 +200,11 @@ const BlogListSection = () => {
               {/* Pagination Start */}
               <div className="row">
                 <div className="col-12">
-                  <div className="pagination">
+                  <div
+                    className="pagination"
+                    data-aos="fade-up"
+                    data-aos-delay="300"
+                  >
                     <ul>
                       <li>
                         <a href="#">
@@ -210,7 +238,11 @@ const BlogListSection = () => {
             <div className="col-lg-4">
               <div className="widget-area">
                 <div className="widget widget-search">
-                  <div className="search">
+                  <div
+                    className="search"
+                    data-aos="fade-up"
+                    data-aos-delay="300"
+                  >
                     <div className="title">
                       <h2>Search Inside</h2>
                     </div>
@@ -228,7 +260,11 @@ const BlogListSection = () => {
                     </div>
                   </div>
                 </div>
-                <div className="widget widget-post">
+                <div
+                  className="widget widget-post"
+                  data-aos="fade-up"
+                  data-aos-delay="300"
+                >
                   <div className="post">
                     <div className="title">
                       <h2>Recent Posts</h2>
@@ -296,7 +332,11 @@ const BlogListSection = () => {
                     </article>
                   </div>
                 </div>
-                <div className="widget widget-follow">
+                <div
+                  className="widget widget-follow"
+                  data-aos="fade-up"
+                  data-aos-delay="300"
+                >
                   <div className="follow">
                     <div className="title">
                       <h2>Follow Us</h2>
@@ -332,7 +372,11 @@ const BlogListSection = () => {
                     </div>
                   </div>
                 </div>
-                <div className="widget widget-categories">
+                <div
+                  className="widget widget-categories"
+                  data-aos="fade-up"
+                  data-aos-delay="300"
+                >
                   <div className="categories">
                     <div className="title">
                       <h2>Categories</h2>
@@ -379,7 +423,11 @@ const BlogListSection = () => {
                     </div>
                   </div>
                 </div>
-                <div className="widget widget-tags">
+                <div
+                  className="widget widget-tags"
+                  data-aos="fade-up"
+                  data-aos-delay="300"
+                >
                   <div className="tags">
                     <div className="title">
                       <h2>Tags</h2>

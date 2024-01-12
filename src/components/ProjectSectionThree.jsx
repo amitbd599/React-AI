@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const ProjectSectionThree = () => {
   return (
@@ -49,7 +50,7 @@ const ProjectSectionThree = () => {
                         applications.
                       </p>
                       <div className="link d-inline-block">
-                        <a href="#">View More</a>
+                        <Link to="#">View More</Link>
                       </div>
                     </div>
                   </div>
@@ -77,7 +78,7 @@ const ProjectSectionThree = () => {
                         applications.
                       </p>
                       <div className="link d-inline-block">
-                        <a href="#">View More</a>
+                        <Link to="#">View More</Link>
                       </div>
                     </div>
                   </div>
@@ -105,7 +106,7 @@ const ProjectSectionThree = () => {
                         applications.
                       </p>
                       <div className="link d-inline-block">
-                        <a href="#">View More</a>
+                        <Link to="#">View More</Link>
                       </div>
                     </div>
                   </div>
@@ -133,7 +134,7 @@ const ProjectSectionThree = () => {
                         applications.
                       </p>
                       <div className="link d-inline-block">
-                        <a href="#">View More</a>
+                        <Link to="#">View More</Link>
                       </div>
                     </div>
                   </div>
@@ -143,9 +144,9 @@ const ProjectSectionThree = () => {
           </div>
           <div className="inner-btn d-adjust">
             <div>
-              <a className="default-btn" href="contact.html">
+              <Link className="default-btn" to="/contact">
                 View All Projects
-              </a>
+              </Link>
             </div>
           </div>
         </div>

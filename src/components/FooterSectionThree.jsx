@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const FooterSectionThree = () => {
   return (
@@ -33,18 +34,18 @@ const FooterSectionThree = () => {
                   data-aos="fade-up"
                   data-aos-delay="500"
                 >
-                  <a href="#">
+                  <Link to="#">
                     <i className="fa-brands fa-facebook-f" />
-                  </a>
-                  <a href="#">
+                  </Link>
+                  <Link to="#">
                     <i className="fa-brands fa-twitter" />
-                  </a>
-                  <a href="#">
+                  </Link>
+                  <Link to="#">
                     <i className="fa-brands fa-linkedin-in" />
-                  </a>
-                  <a href="#">
+                  </Link>
+                  <Link to="#">
                     <i className="fa-brands fa-instagram" />
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -66,10 +67,10 @@ const FooterSectionThree = () => {
                         </div>
                       </div>
                       <div>
-                        <a href="blog-details.html">
+                        <Link to="/blog-details">
                           AI consulting services and solutions you achieve your
                           business faster.
-                        </a>
+                        </Link>
                         <div>
                           <i className="fa-sharp fa-regular fa-clock" />{" "}
                           Wednesday, April 26, 2023{" "}
@@ -87,10 +88,10 @@ const FooterSectionThree = () => {
                         </div>
                       </div>
                       <div>
-                        <a href="blog-details.html">
+                        <Link to="/blog-details">
                           AI consulting services and solutions you achieve
                           objectives faster.
-                        </a>
+                        </Link>
                         <div>
                           <i className="fa-sharp fa-regular fa-clock" />{" "}
                           Wednesday, April 26, 2023{" "}

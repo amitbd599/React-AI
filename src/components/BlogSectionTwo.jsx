@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const BlogSectionTwo = () => {
   return (
@@ -56,17 +57,17 @@ const BlogSectionTwo = () => {
                   </div>
                   <div className="title">
                     <h2>
-                      <a href="#">
+                      <Link to="#">
                         Professional Technology information &amp; Solutions...
-                      </a>
+                      </Link>
                     </h2>
                     <p>
                       Lorem ipsum dolor sit amet, coned sectetur notte elit sed
                       do.
                     </p>
-                    <a className="link" href="blog-details.html">
+                    <Link className="link" to="/blog-details">
                       Read More
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -103,17 +104,17 @@ const BlogSectionTwo = () => {
                   </div>
                   <div className="title">
                     <h2>
-                      <a href="#">
+                      <Link to="#">
                         We offer AI consulting services and solutions...
-                      </a>
+                      </Link>
                     </h2>
                     <p>
                       Lorem ipsum dolor sit amet, coned sectetur notte elit sed
                       do.
                     </p>
-                    <a className="link" href="blog-details.html">
+                    <Link className="link" to="/blog-details">
                       Read More
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -150,17 +151,17 @@ const BlogSectionTwo = () => {
                   </div>
                   <div className="title">
                     <h2>
-                      <a href="#">
+                      <Link to="#">
                         AI Services is a collection services with prebuilt...
-                      </a>
+                      </Link>
                     </h2>
                     <p>
                       Lorem ipsum dolor sit amet, coned sectetur notte elit sed
                       do.
                     </p>
-                    <a className="link" href="blog-details.html">
+                    <Link className="link" to="/blog-details">
                       Read More
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -168,9 +169,9 @@ const BlogSectionTwo = () => {
           </div>
           <div className="inner-btn d-adjust">
             <div>
-              <a className="default-btn" href="blog.html">
+              <Link className="default-btn" to="/blog">
                 View More Blogs
-              </a>
+              </Link>
             </div>
           </div>
         </div>

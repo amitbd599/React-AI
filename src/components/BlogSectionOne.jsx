@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const BlogSectionOne = () => {
   return (
@@ -59,7 +60,7 @@ const BlogSectionOne = () => {
                   </div>
                   <div className="title">
                     <h2>
-                      <a href="#">Professional Technology information.</a>
+                      <Link to="#">Professional Technology information.</Link>
                     </h2>
                     <p>
                       Lorem ipsum dolor sit amet, coned sectetur notte elit sed
@@ -106,7 +107,7 @@ const BlogSectionOne = () => {
                   </div>
                   <div className="title">
                     <h2>
-                      <a href="#">We offer AI services and solutions.</a>
+                      <Link to="#">We offer AI services and solutions.</Link>
                     </h2>
                     <p>
                       Lorem ipsum dolor sit amet, coned sectetur notte elit sed
@@ -153,7 +154,7 @@ const BlogSectionOne = () => {
                   </div>
                   <div className="title">
                     <h2>
-                      <a href="#">AI Services is a collection prebuilt.</a>
+                      <Link to="#">AI Services is a collection prebuilt.</Link>
                     </h2>
                     <p>
                       Lorem ipsum dolor sit amet, coned sectetur notte elit sed
@@ -166,9 +167,9 @@ const BlogSectionOne = () => {
           </div>
           <div className="inner-btn d-adjust">
             <div>
-              <a className="default-btn" href="blog.html">
+              <Link className="default-btn" to="/blog">
                 View More Blogs
-              </a>
+              </Link>
             </div>
           </div>
         </div>

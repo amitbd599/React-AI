@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const BlogDetailsSection = () => {
   return (
@@ -29,19 +30,19 @@ const BlogDetailsSection = () => {
                         <span>
                           <i className="fa-solid fa-user" />
                         </span>
-                        <a href="#">By admin</a>
+                        <Link to="#">By admin</Link>
                       </li>
                       <li>
                         <span>
                           <i className="fa-solid fa-folder" />
                         </span>
-                        <a href="#">Artificial</a>
+                        <Link to="#">Artificial</Link>
                       </li>
                       <li>
                         <span>
                           <i className="fa-solid fa-comment" />
                         </span>
-                        <a href="#">3 Comments</a>
+                        <Link to="#">3 Comments</Link>
                       </li>
                     </ul>
                   </div>
@@ -154,44 +155,44 @@ const BlogDetailsSection = () => {
                       <span>
                         <i className="fas fa-bookmark" />
                       </span>
-                      <a href="#" className="">
+                      <Link to="#" className="">
                         Fashion
-                      </a>
+                      </Link>
                       ,
-                      <a href="#" className="">
+                      <Link to="#" className="">
                         Games
-                      </a>
+                      </Link>
                       ,
-                      <a href="#" className="">
+                      <Link to="#" className="">
                         Travel
-                      </a>
+                      </Link>
                     </div>
                     <div className="social">
                       <ul>
                         <li>
-                          <a href="#">
+                          <Link to="#">
                             <i className="fa-brands fa-facebook-f" />
-                          </a>
+                          </Link>
                         </li>
                         <li>
-                          <a href="#">
+                          <Link to="#">
                             <i className="fa-brands fa-twitter" />
-                          </a>
+                          </Link>
                         </li>
                         <li>
-                          <a href="#">
+                          <Link to="#">
                             <i className="fa-brands fa-linkedin-in" />
-                          </a>
+                          </Link>
                         </li>
                         <li>
-                          <a href="#">
+                          <Link to="#">
                             <i className="fa-brands fa-pinterest" />
-                          </a>
+                          </Link>
                         </li>
                         <li>
-                          <a href="#">
+                          <Link to="#">
                             <i className="fa-brands fa-instagram" />
-                          </a>
+                          </Link>
                         </li>
                       </ul>
                     </div>
@@ -223,7 +224,7 @@ const BlogDetailsSection = () => {
                         ensure that progress in the field is being made.
                       </p>
                       <div className="reply">
-                        <a href="#">Reply</a>
+                        <Link to="#">Reply</Link>
                       </div>
                     </div>
                   </div>
@@ -249,7 +250,7 @@ const BlogDetailsSection = () => {
                         ensure that progress in the field is being made.
                       </p>
                       <div className="reply">
-                        <a href="#">Reply</a>
+                        <Link to="#">Reply</Link>
                       </div>
                     </div>
                   </div>
@@ -275,7 +276,7 @@ const BlogDetailsSection = () => {
                         ensure that progress in the field is being made.
                       </p>
                       <div className="reply">
-                        <a href="#">Reply</a>
+                        <Link to="#">Reply</Link>
                       </div>
                     </div>
                   </div>
@@ -301,7 +302,7 @@ const BlogDetailsSection = () => {
                         ensure that progress in the field is being made.
                       </p>
                       <div className="reply">
-                        <a href="#">Reply</a>
+                        <Link to="#">Reply</Link>
                       </div>
                     </div>
                   </div>
@@ -415,63 +416,63 @@ const BlogDetailsSection = () => {
                       <h2>Recent Posts</h2>
                     </div>
                     <article className="post-item">
-                      <a href="blog-details.html">
+                      <Link to="/blog-details">
                         <div className="img-file">
                           <img src="/assets/img/blog/01_blog.png" alt="" />
                         </div>
-                      </a>
+                      </Link>
                       <div className="info">
                         <time dateTime="2023-06-19">May 26, 2023</time>
                         <h4 className="title">
-                          <a href="blog-details.html">
+                          <Link to="/blog-details">
                             AI consulting services and solutions that will help.
-                          </a>
+                          </Link>
                         </h4>
                       </div>
                     </article>
                     <article className="post-item">
-                      <a href="blog-details.html">
+                      <Link to="/blog-details">
                         <div className="img-file">
                           <img src="/assets/img/blog/02_blog.png" alt="" />
                         </div>
-                      </a>
+                      </Link>
                       <div className="info">
                         <time dateTime="2023-06-19">May 26, 2023</time>
                         <h4 className="title">
-                          <a href="blog-details.html">
+                          <Link to="/blog-details">
                             We will respond within one working day and arrange.
-                          </a>
+                          </Link>
                         </h4>
                       </div>
                     </article>
                     <article className="post-item">
-                      <a href="blog-details.html">
+                      <Link to="/blog-details">
                         <div className="img-file">
                           <img src="/assets/img/blog/03_blog.png" alt="" />
                         </div>
-                      </a>
+                      </Link>
                       <div className="info">
                         <time dateTime="2023-06-19">May 26, 2023</time>
                         <h4 className="title">
-                          <a href="blog-details.html">
+                          <Link to="/blog-details">
                             An expert matching your market niche and industry.
-                          </a>
+                          </Link>
                         </h4>
                       </div>
                     </article>
                     <article className="post-item">
-                      <a href="blog-details.html">
+                      <Link to="/blog-details">
                         <div className="img-file">
                           <img src="/assets/img/blog/04_blog.png" alt="" />
                         </div>
-                      </a>
+                      </Link>
                       <div className="info">
                         <time dateTime="2023-06-19">May 26, 2023</time>
                         <h4 className="title">
-                          <a href="blog-details.html">
+                          <Link to="/blog-details">
                             You will get a service suite offering, including
                             time.
-                          </a>
+                          </Link>
                         </h4>
                       </div>
                     </article>
@@ -489,29 +490,29 @@ const BlogDetailsSection = () => {
                     <div className="social">
                       <ul>
                         <li>
-                          <a href="#">
+                          <Link to="#">
                             <i className="fa-brands fa-facebook-f" />
-                          </a>
+                          </Link>
                         </li>
                         <li>
-                          <a href="#">
+                          <Link to="#">
                             <i className="fa-brands fa-twitter" />
-                          </a>
+                          </Link>
                         </li>
                         <li>
-                          <a href="#">
+                          <Link to="#">
                             <i className="fa-brands fa-linkedin-in" />
-                          </a>
+                          </Link>
                         </li>
                         <li>
-                          <a href="#">
+                          <Link to="#">
                             <i className="fa-brands fa-pinterest" />
-                          </a>
+                          </Link>
                         </li>
                         <li>
-                          <a href="#">
+                          <Link to="#">
                             <i className="fa-brands fa-instagram" />
-                          </a>
+                          </Link>
                         </li>
                       </ul>
                     </div>
@@ -529,40 +530,40 @@ const BlogDetailsSection = () => {
                     <div className="list-inner">
                       <ul>
                         <li>
-                          <a href="#">
+                          <Link to="#">
                             <span>Business</span>
                             <span>(8)</span>
-                          </a>
+                          </Link>
                         </li>
                         <li>
-                          <a href="#">
+                          <Link to="#">
                             <span>Finance</span>
                             <span>(10)</span>
-                          </a>
+                          </Link>
                         </li>
                         <li>
-                          <a href="#">
+                          <Link to="#">
                             <span>Web Design</span>
                             <span>(3)</span>
-                          </a>
+                          </Link>
                         </li>
                         <li>
-                          <a href="#">
+                          <Link to="#">
                             <span>Counseling</span>
                             <span>(5)</span>
-                          </a>
+                          </Link>
                         </li>
                         <li>
-                          <a href="#">
+                          <Link to="#">
                             <span>IT Service</span>
                             <span>(11)</span>
-                          </a>
+                          </Link>
                         </li>
                         <li>
-                          <a href="#">
+                          <Link to="#">
                             <span>AI software</span>
                             <span>(12)</span>
-                          </a>
+                          </Link>
                         </li>
                       </ul>
                     </div>
@@ -578,13 +579,13 @@ const BlogDetailsSection = () => {
                       <h2>Tags</h2>
                     </div>
                     <div className="list-grid">
-                      <a href="#">Machine Learning (4)</a>
-                      <a href="#">ICT Book (6)</a>
-                      <a href="#">Technology (2)</a>
-                      <a href="#">Robot (3)</a>
-                      <a href="#">AI Tech (11)</a>
-                      <a href="#">Intelligence (6)</a>
-                      <a href="#">Artificial (3)</a>
+                      <Link to="#">Machine Learning (4)</Link>
+                      <Link to="#">ICT Book (6)</Link>
+                      <Link to="#">Technology (2)</Link>
+                      <Link to="#">Robot (3)</Link>
+                      <Link to="#">AI Tech (11)</Link>
+                      <Link to="#">Intelligence (6)</Link>
+                      <Link to="#">Artificial (3)</Link>
                     </div>
                   </div>
                 </div>

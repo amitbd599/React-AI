@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const TeamSectionTwo = () => {
   return (
@@ -37,18 +38,18 @@ const TeamSectionTwo = () => {
                   <div className="shape-overlay">
                     <div className="inner-data">
                       <div className="social one">
-                        <a href="#">
+                        <Link to="#">
                           <i className="fa-brands fa-facebook-f" />
-                        </a>
-                        <a href="#">
+                        </Link>
+                        <Link to="#">
                           <i className="fa-brands fa-twitter" />
-                        </a>
-                        <a href="#">
+                        </Link>
+                        <Link to="#">
                           <i className="fa-brands fa-linkedin-in" />
-                        </a>
-                        <a href="#">
+                        </Link>
+                        <Link to="#">
                           <i className="fa-brands fa-instagram" />
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </div>
@@ -74,18 +75,18 @@ const TeamSectionTwo = () => {
                   <div className="shape-overlay">
                     <div className="inner-data">
                       <div className="social one">
-                        <a href="#">
+                        <Link to="#">
                           <i className="fa-brands fa-facebook-f" />
-                        </a>
-                        <a href="#">
+                        </Link>
+                        <Link to="#">
                           <i className="fa-brands fa-twitter" />
-                        </a>
-                        <a href="#">
+                        </Link>
+                        <Link to="#">
                           <i className="fa-brands fa-linkedin-in" />
-                        </a>
-                        <a href="#">
+                        </Link>
+                        <Link to="#">
                           <i className="fa-brands fa-instagram" />
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </div>
@@ -111,18 +112,18 @@ const TeamSectionTwo = () => {
                   <div className="shape-overlay">
                     <div className="inner-data">
                       <div className="social one">
-                        <a href="#">
+                        <Link to="#">
                           <i className="fa-brands fa-facebook-f" />
-                        </a>
-                        <a href="#">
+                        </Link>
+                        <Link to="#">
                           <i className="fa-brands fa-twitter" />
-                        </a>
-                        <a href="#">
+                        </Link>
+                        <Link to="#">
                           <i className="fa-brands fa-linkedin-in" />
-                        </a>
-                        <a href="#">
+                        </Link>
+                        <Link to="#">
                           <i className="fa-brands fa-instagram" />
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </div>
@@ -148,18 +149,18 @@ const TeamSectionTwo = () => {
                   <div className="shape-overlay">
                     <div className="inner-data">
                       <div className="social one">
-                        <a href="#">
+                        <Link to="#">
                           <i className="fa-brands fa-facebook-f" />
-                        </a>
-                        <a href="#">
+                        </Link>
+                        <Link to="#">
                           <i className="fa-brands fa-twitter" />
-                        </a>
-                        <a href="#">
+                        </Link>
+                        <Link to="#">
                           <i className="fa-brands fa-linkedin-in" />
-                        </a>
-                        <a href="#">
+                        </Link>
+                        <Link to="#">
                           <i className="fa-brands fa-instagram" />
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </div>

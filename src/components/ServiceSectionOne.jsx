@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const ServiceSectionOne = () => {
   return (
@@ -35,7 +36,7 @@ const ServiceSectionOne = () => {
                   </div>
                   <div className="text-file">
                     <h3>
-                      <a href="#">Robotics &amp; Drones</a>
+                      <Link to="#">Robotics &amp; Drones</Link>
                     </h3>
                     <p>
                       Lorem ipsum dolor sit amet, consectetur adipisicing elit.
@@ -57,7 +58,7 @@ const ServiceSectionOne = () => {
                   </div>
                   <div className="text-file">
                     <h3>
-                      <a href="#">Analyze videos</a>
+                      <Link to="#">Analyze videos</Link>
                     </h3>
                     <p>
                       Lorem ipsum dolor sit amet, consectetur adipisicing elit.
@@ -79,7 +80,7 @@ const ServiceSectionOne = () => {
                   </div>
                   <div className="text-file">
                     <h3>
-                      <a href="#">Acquire insights</a>
+                      <Link to="#">Acquire insights</Link>
                     </h3>
                     <p>
                       Lorem ipsum dolor sit amet, consectetur adipisicing elit.
@@ -101,7 +102,7 @@ const ServiceSectionOne = () => {
                   </div>
                   <div className="text-file">
                     <h3>
-                      <a href="#">Extract text &amp; data</a>
+                      <Link to="#">Extract text &amp; data</Link>
                     </h3>
                     <p>
                       Lorem ipsum dolor sit amet, consectetur adipisicing elit.
@@ -123,7 +124,7 @@ const ServiceSectionOne = () => {
                   </div>
                   <div className="text-file">
                     <h3>
-                      <a href="#">Online experiences</a>
+                      <Link to="#">Online experiences</Link>
                     </h3>
                     <p>
                       Lorem ipsum dolor sit amet, consectetur adipisicing elit.
@@ -145,7 +146,7 @@ const ServiceSectionOne = () => {
                   </div>
                   <div className="text-file">
                     <h3>
-                      <a href="#">Control quality</a>
+                      <Link to="#">Control quality</Link>
                     </h3>
                     <p>
                       Lorem ipsum dolor sit amet, consectetur adipisicing elit.
@@ -163,9 +164,9 @@ const ServiceSectionOne = () => {
           data-aos-delay="300"
         >
           <div>
-            <a className="default-btn" href="contact.html">
+            <Link className="default-btn" to="/contact">
               View All Services
-            </a>
+            </Link>
           </div>
         </div>
         <div className="shape-image">

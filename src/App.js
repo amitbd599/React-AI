@@ -23,6 +23,7 @@ import { useEffect } from "react";
 import RouteScrollToTop from "./elements/RouteScrollToTop";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import ScrollToTop from "react-scroll-to-top";
 function App() {
   useEffect(() => {
     AOS.init({
@@ -36,6 +37,7 @@ function App() {
   return (
     <BrowserRouter>
       <RouteScrollToTop />
+      <ScrollToTop smooth color='#fff' />
       <Routes>
         <Route exact path="/" element={<Demo />} />
         <Route exact path="/index" element={<HomeOne />} />
@@ -57,7 +59,7 @@ function App() {
         <Route exact path="/team" element={<Team />} />
         <Route exact path="*" element={<Error />} />
       </Routes>
-      {/* <ScrollToTop smooth color='#DE2021' /> */}
+
     </BrowserRouter>
   );
 }

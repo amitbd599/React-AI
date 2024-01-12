@@ -1,6 +1,8 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const ProjectSectionOne = () => {
+  
   return (
     <>
       {/* Project Section one start */}
@@ -42,9 +44,9 @@ const ProjectSectionOne = () => {
                       cutting-edge research to real-world applications.
                     </p>
                     <div className="d-inline-block">
-                      <a href="#">
+                      <Link to="#">
                         View More <i className="fa-light fa-chevrons-right" />
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -70,9 +72,9 @@ const ProjectSectionOne = () => {
                       cutting-edge research to real-world applications.
                     </p>
                     <div className="d-inline-block">
-                      <a href="#">
+                      <Link to="#">
                         View More <i className="fa-light fa-chevrons-right" />
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -98,9 +100,9 @@ const ProjectSectionOne = () => {
                       cutting-edge research to real-world applications.
                     </p>
                     <div className="d-inline-block">
-                      <a href="#">
+                      <Link to="#">
                         View More <i className="fa-light fa-chevrons-right" />
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -126,9 +128,9 @@ const ProjectSectionOne = () => {
                       cutting-edge research to real-world applications.
                     </p>
                     <div className="d-inline-block">
-                      <a href="#">
+                      <Link to="#">
                         View More <i className="fa-light fa-chevrons-right" />
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -137,9 +139,9 @@ const ProjectSectionOne = () => {
           </div>
           <div className="inner-btn d-adjust">
             <div>
-              <a className="default-btn" href="contact.html">
+              <Link className="default-btn" to="/contact">
                 View All Projects
-              </a>
+              </Link>
             </div>
           </div>
         </div>

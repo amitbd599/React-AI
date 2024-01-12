@@ -62,7 +62,7 @@ const HeaderOne = () => {
             <div className="col-xl-3 col-lg-2 col-md-6 col-6">
               <div className="logo-area">
                 <div className="logo">
-                  <Link to="index">
+                  <Link to="/index">
                     <img
                       className="img-fluid"
                       src="assets/img/common/logo-white.png"
@@ -78,7 +78,7 @@ const HeaderOne = () => {
                   <nav>
                     <ul>
                       <li className="has-dropdown">
-                        <Link to="index">Home</Link>
+                        <Link to="/index">Home</Link>
                         <ul className="sub-menu">
                           <li className="active">
                             <Link to="/">Demo</Link>
@@ -95,37 +95,37 @@ const HeaderOne = () => {
                         </ul>
                       </li>
                       <li>
-                        <Link to="about">About Us</Link>
+                        <Link to="/about">About Us</Link>
                       </li>
                       <li className="has-dropdown">
                         <Link to="#">Pages</Link>
                         <ul className="sub-menu">
                           <li>
-                            <Link to="team">Team</Link>
+                            <Link to="/team">Team</Link>
                           </li>
                           <li>
-                            <Link to="project">Project</Link>
+                            <Link to="/project">Project</Link>
                           </li>
                           <li>
-                            <Link to="project-details">Project Details</Link>
+                            <Link to="/project-details">Project Details</Link>
                           </li>
                           <li>
-                            <Link to="service">Service</Link>
+                            <Link to="/service">Service</Link>
                           </li>
                           <li>
-                            <Link to="service-details">Service Details</Link>
+                            <Link to="/service-details">Service Details</Link>
                           </li>
                           <li>
-                            <Link to="pricing">Pricing</Link>
+                            <Link to="/pricing">Pricing</Link>
                           </li>
                           <li>
-                            <Link to="review">Review</Link>
+                            <Link to="/review">Review</Link>
                           </li>
                           <li>
-                            <Link to="faq">FAQ</Link>
+                            <Link to="/faq">FAQ</Link>
                           </li>
                           <li>
-                            <Link to="404">404 Page</Link>
+                            <Link to="/error">404 Page</Link>
                           </li>
                         </ul>
                       </li>
@@ -133,23 +133,23 @@ const HeaderOne = () => {
                         <Link to="blog-grid">Blog</Link>
                         <ul className="sub-menu">
                           <li>
-                            <Link to="blog-grid">Blog-Grid</Link>
+                            <Link to="/blog-grid">Blog-Grid</Link>
                           </li>
                           <li>
-                            <Link to="blog-grid-sidebar">
+                            <Link to="/blog-grid-sidebar">
                               Blog-Grid Sidebar
                             </Link>
                           </li>
                           <li>
-                            <Link to="blog-list">Blog-List</Link>
+                            <Link to="/blog-list">Blog-List</Link>
                           </li>
                           <li>
-                            <Link to="blog-details">Blog Details</Link>
+                            <Link to="/blog-details">Blog Details</Link>
                           </li>
                         </ul>
                       </li>
                       <li>
-                        <Link to="contact">Contact</Link>
+                        <Link to="/contact">Contact</Link>
                       </li>
                     </ul>
                   </nav>
@@ -157,7 +157,7 @@ const HeaderOne = () => {
               </div>
               <div className="side-menu-icon d-lg-none text-end">
                 <Link
-                  to="javascript:void(0)"
+                  to="#"
                   className="info-toggle-btn f-right sidebar-toggle-btn"
                   onClick={mobileMenu}
                 >
@@ -167,7 +167,7 @@ const HeaderOne = () => {
             </div>
             <div className="col-xl-2 col-lg-3 d-none d-lg-block">
               <div className="d-adjust">
-                <Link className="default-btn" to="contact">
+                <Link className="default-btn" to="/contact">
                   Try It Free Now
                 </Link>
               </div>
@@ -192,7 +192,7 @@ const HeaderOne = () => {
           </div>
           <div className="sidebar__content">
             <div className="sidebar-logo mb-40 mt-40">
-              <Link to="index">
+              <Link to="/index">
                 <img src="assets/img/common/logo-white.png" alt="logo" />
               </Link>
             </div>
@@ -207,73 +207,73 @@ const HeaderOne = () => {
             <nav className="offcanvas-navigation" id="offcanvas-navigation">
               <ul>
                 <li className="menu-item-has-children">
-                  <Link to="index">Home</Link>
+                  <Link to="/index">Home</Link>
                   <ul className="sub-menu">
                     <li className="active">
-                      <Link to="index">Home One</Link>
+                      <Link to="/index">Home One</Link>
                     </li>
                     <li>
-                      <Link to="index-2">Home Two</Link>
+                      <Link to="/index-2">Home Two</Link>
                     </li>
                     <li>
-                      <Link to="index-3">Home Three</Link>
+                      <Link to="/index-3">Home Three</Link>
                     </li>
                   </ul>
                 </li>
                 <li>
-                  <Link to="about">About Us</Link>
+                  <Link to="/about">About Us</Link>
                 </li>
                 <li className="menu-item-has-children">
                   <Link to="#">Pages</Link>
                   <ul className="sub-menu">
                     <li>
-                      <Link to="team">Team</Link>
+                      <Link to="/team">Team</Link>
                     </li>
                     <li>
-                      <Link to="project">Project</Link>
+                      <Link to="/project">Project</Link>
                     </li>
                     <li>
-                      <Link to="project-details">Project Details</Link>
+                      <Link to="/project-details">Project Details</Link>
                     </li>
                     <li>
-                      <Link to="service">Service</Link>
+                      <Link to="/service">Service</Link>
                     </li>
                     <li>
-                      <Link to="service-details">Service Details</Link>
+                      <Link to="/service-details">Service Details</Link>
                     </li>
                     <li>
-                      <Link to="pricing">Pricing</Link>
+                      <Link to="/pricing">Pricing</Link>
                     </li>
                     <li>
-                      <Link to="review">Review</Link>
+                      <Link to="/review">Review</Link>
                     </li>
                     <li>
-                      <Link to="faq">FAQ</Link>
+                      <Link to="/faq">FAQ</Link>
                     </li>
                     <li>
-                      <Link to="404">404 Page</Link>
+                      <Link to="/error">404 Page</Link>
                     </li>
                   </ul>
                 </li>
                 <li className="has-dropdown">
-                  <Link to="blog-grid">Blog</Link>
+                  <Link to="/blog-grid">Blog</Link>
                   <ul className="sub-menu">
                     <li>
-                      <Link to="blog-grid">Blog-Grid</Link>
+                      <Link to="/blog-grid">Blog-Grid</Link>
                     </li>
                     <li>
-                      <Link to="blog-grid-sidebar">Blog-Grid Sidebar</Link>
+                      <Link to="/blog-grid-sidebar">Blog-Grid Sidebar</Link>
                     </li>
                     <li>
-                      <Link to="blog-list">Blog-List</Link>
+                      <Link to="/blog-list">Blog-List</Link>
                     </li>
                     <li>
-                      <Link to="blog-details">Blog Details</Link>
+                      <Link to="/blog-details">Blog Details</Link>
                     </li>
                   </ul>
                 </li>
                 <li>
-                  <Link to="contact">Contact</Link>
+                  <Link to="/contact">Contact</Link>
                 </li>
               </ul>
             </nav>

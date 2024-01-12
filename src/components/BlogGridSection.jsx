@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const BlogGridSection = () => {
   return (
@@ -44,9 +45,9 @@ const BlogGridSection = () => {
                   </div>
                   <div className="title">
                     <h2>
-                      <a href="blog-details.html">
+                      <Link to="/blog-details">
                         Professional Technology information &amp; Solutions...
-                      </a>
+                      </Link>
                     </h2>
                     <p>
                       Lorem ipsum dolor sit amet, coned sectetur notte elit sed
@@ -93,9 +94,9 @@ const BlogGridSection = () => {
                   </div>
                   <div className="title">
                     <h2>
-                      <a href="blog-details.html">
+                      <Link to="/blog-details">
                         We offer AI consulting services and solutions...
-                      </a>
+                      </Link>
                     </h2>
                     <p>
                       Lorem ipsum dolor sit amet, coned sectetur notte elit sed
@@ -142,9 +143,9 @@ const BlogGridSection = () => {
                   </div>
                   <div className="title">
                     <h2>
-                      <a href="blog-details.html">
+                      <Link to="/blog-details">
                         AI Services is a collection with prebuilt...
-                      </a>
+                      </Link>
                     </h2>
                     <p>
                       Lorem ipsum dolor sit amet, coned sectetur notte elit sed
@@ -191,9 +192,9 @@ const BlogGridSection = () => {
                   </div>
                   <div className="title">
                     <h2>
-                      <a href="blog-details.html">
+                      <Link to="/blog-details">
                         The Security Risks Of Changing Owners...
-                      </a>
+                      </Link>
                     </h2>
                     <p>
                       Lorem ipsum dolor sit amet, coned sectetur notte elit sed
@@ -240,9 +241,9 @@ const BlogGridSection = () => {
                   </div>
                   <div className="title">
                     <h2>
-                      <a href="blog-details.html">
+                      <Link to="/blog-details">
                         Avenga AI services help companies create AI...
-                      </a>
+                      </Link>
                     </h2>
                     <p>
                       Lorem ipsum dolor sit amet, coned sectetur notte elit sed
@@ -289,9 +290,9 @@ const BlogGridSection = () => {
                   </div>
                   <div className="title">
                     <h2>
-                      <a href="blog-details.html">
+                      <Link to="/blog-details">
                         Use the same proven AI power AI capabilities...
-                      </a>
+                      </Link>
                     </h2>
                     <p>
                       Lorem ipsum dolor sit amet, coned sectetur notte elit sed
@@ -338,9 +339,9 @@ const BlogGridSection = () => {
                   </div>
                   <div className="title">
                     <h2>
-                      <a href="blog-details.html">
+                      <Link to="/blog-details">
                         The Security Risks Of Changing Owners...
-                      </a>
+                      </Link>
                     </h2>
                     <p>
                       Lorem ipsum dolor sit amet, coned sectetur notte elit sed
@@ -387,9 +388,9 @@ const BlogGridSection = () => {
                   </div>
                   <div className="title">
                     <h2>
-                      <a href="blog-details.html">
+                      <Link to="/blog-details">
                         Avenga AI services help companies create AI...
-                      </a>
+                      </Link>
                     </h2>
                     <p>
                       Lorem ipsum dolor sit amet, coned sectetur notte elit sed
@@ -436,9 +437,9 @@ const BlogGridSection = () => {
                   </div>
                   <div className="title">
                     <h2>
-                      <a href="blog-details.html">
+                      <Link to="/blog-details">
                         Use the same proven AI power AI capabilities...
-                      </a>
+                      </Link>
                     </h2>
                     <p>
                       Lorem ipsum dolor sit amet, coned sectetur notte elit sed
@@ -458,28 +459,28 @@ const BlogGridSection = () => {
               >
                 <ul>
                   <li>
-                    <a href="#">
+                    <Link to="#">
                       <i className="fa-regular fa-chevrons-left" />
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a className="active" href="#">
+                    <Link className="active" to="#">
                       1
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="#">2</a>
+                    <Link to="#">2</Link>
                   </li>
                   <li>
-                    <a href="#">3</a>
+                    <Link to="#">3</Link>
                   </li>
                   <li>
-                    <a href="#">4</a>
+                    <Link to="#">4</Link>
                   </li>
                   <li>
-                    <a href="#">
+                    <Link to="#">
                       <i className="fa-regular fa-chevrons-right" />
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </div>

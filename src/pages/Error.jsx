@@ -1,5 +1,6 @@
 import React, { Fragment, Suspense } from "react";
 import Preloader from "../elements/Preloader";
+import { Link } from "react-router-dom";
 
 const Error = () => {
   return (
@@ -37,9 +38,9 @@ const Error = () => {
                     data-aos="fade-up"
                     data-aos-delay="500"
                   >
-                    <a className="default-btn" href="index-1.html">
+                    <Link className="default-btn" to="/index">
                       Back to Home
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>

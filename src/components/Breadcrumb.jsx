@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Breadcrumb = ({ data }) => {
   return (
@@ -22,7 +23,7 @@ const Breadcrumb = ({ data }) => {
                   data-aos="fade-up"
                   data-aos-delay="400"
                 >
-                  <a href="index-1.html">Home</a> / <span>{data}</span>
+                  <Link to="/index">Home</Link> / <span>{data}</span>
                 </div>
               </div>
             </div>

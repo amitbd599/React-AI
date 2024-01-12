@@ -1,5 +1,6 @@
 import React from "react";
 import CountUp from "react-countup";
+import { Link } from "react-router-dom";
 import ReactVisibilitySensor from "react-visibility-sensor";
 
 const CounterSectionOne = () => {
@@ -25,9 +26,9 @@ const CounterSectionOne = () => {
               <div className="col-lg-6">
                 <div className="inner-btn d-adjust">
                   <div>
-                    <a className="default-btn" href="contact.html">
+                    <Link className="default-btn" to="/contact">
                       Let’s Work To Do{" "}
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -100,9 +101,9 @@ const CounterSectionOne = () => {
                     </ul>
                     <div className="inner-btn d-adjust">
                       <div>
-                        <a className="default-btn" href="contact.html">
+                        <Link className="default-btn" to="/contact">
                           View More
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </div>

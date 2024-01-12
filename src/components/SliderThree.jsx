@@ -1,6 +1,7 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, FreeMode, Thumbs, EffectFade } from "swiper";
+import { Link } from "react-router-dom";
 const SliderThree = () => {
     return (
         <>
@@ -42,9 +43,9 @@ const SliderThree = () => {
                                                     </p>
                                                     <div className="inner-btn">
                                                         <div>
-                                                            <a className="default-btn" href="contact.html">
+                                                            <Link className="default-btn" to="/contact">
                                                                 Learn More About AI
-                                                            </a>
+                                                            </Link>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -92,9 +93,9 @@ const SliderThree = () => {
                                                         </p>
                                                         <div className="inner-btn">
                                                             <div>
-                                                                <a className="default-btn" href="contact.html">
+                                                                <Link className="default-btn" to="/contact">
                                                                     Contact Us Now
-                                                                </a>
+                                                                </Link>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -132,9 +133,9 @@ const SliderThree = () => {
                                                         </p>
                                                         <div className="inner-btn">
                                                             <div>
-                                                                <a className="default-btn" href="contact.html">
+                                                                <Link className="default-btn" to="/contact">
                                                                     Explore Now
-                                                                </a>
+                                                                </Link>
                                                             </div>
                                                         </div>
                                                     </div>

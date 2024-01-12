@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const ServiceSectionAll = () => {
   return (
@@ -22,7 +23,7 @@ const ServiceSectionAll = () => {
                   </div>
                   <div className="text-file">
                     <h3>
-                      <a href="#">Robotics &amp; Drones</a>
+                      <Link to="#">Robotics &amp; Drones</Link>
                     </h3>
                     <p>
                       Lorem ipsum dolor sit amet, consectetur adipisicing elit.
@@ -44,7 +45,7 @@ const ServiceSectionAll = () => {
                   </div>
                   <div className="text-file">
                     <h3>
-                      <a href="#">Analyze videos</a>
+                      <Link to="#">Analyze videos</Link>
                     </h3>
                     <p>
                       Lorem ipsum dolor sit amet, consectetur adipisicing elit.
@@ -66,7 +67,7 @@ const ServiceSectionAll = () => {
                   </div>
                   <div className="text-file">
                     <h3>
-                      <a href="#">Acquire insights</a>
+                      <Link to="#">Acquire insights</Link>
                     </h3>
                     <p>
                       Lorem ipsum dolor sit amet, consectetur adipisicing elit.
@@ -88,7 +89,7 @@ const ServiceSectionAll = () => {
                   </div>
                   <div className="text-file">
                     <h3>
-                      <a href="#">Extract text &amp; data</a>
+                      <Link to="#">Extract text &amp; data</Link>
                     </h3>
                     <p>
                       Lorem ipsum dolor sit amet, consectetur adipisicing elit.
@@ -110,7 +111,7 @@ const ServiceSectionAll = () => {
                   </div>
                   <div className="text-file">
                     <h3>
-                      <a href="#">Online experiences</a>
+                      <Link to="#">Online experiences</Link>
                     </h3>
                     <p>
                       Lorem ipsum dolor sit amet, consectetur adipisicing elit.
@@ -132,7 +133,7 @@ const ServiceSectionAll = () => {
                   </div>
                   <div className="text-file">
                     <h3>
-                      <a href="#">Control quality</a>
+                      <Link to="#">Control quality</Link>
                     </h3>
                     <p>
                       Lorem ipsum dolor sit amet, consectetur adipisicing elit.
@@ -154,7 +155,7 @@ const ServiceSectionAll = () => {
                   </div>
                   <div className="text-file">
                     <h3>
-                      <a href="#">Facing Challenges</a>
+                      <Link to="#">Facing Challenges</Link>
                     </h3>
                     <p>
                       Lorem ipsum dolor sit amet, consectetur adipisicing elit.
@@ -176,7 +177,7 @@ const ServiceSectionAll = () => {
                   </div>
                   <div className="text-file">
                     <h3>
-                      <a href="#">Heavy Industry</a>
+                      <Link to="#">Heavy Industry</Link>
                     </h3>
                     <p>
                       Lorem ipsum dolor sit amet, consectetur adipisicing elit.
@@ -198,7 +199,7 @@ const ServiceSectionAll = () => {
                   </div>
                   <div className="text-file">
                     <h3>
-                      <a href="#">Transportation</a>
+                      <Link to="#">Transportation</Link>
                     </h3>
                     <p>
                       Lorem ipsum dolor sit amet, consectetur adipisicing elit.

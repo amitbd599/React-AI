@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const ProjectDetailsSection = () => {
   return (
@@ -122,29 +123,29 @@ const ProjectDetailsSection = () => {
                 <div className="social">
                   <ul>
                     <li>
-                      <a href="#">
+                      <Link to="#">
                         <i className="fa-brands fa-facebook-f" />
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href="#">
+                      <Link to="#">
                         <i className="fa-brands fa-twitter" />
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href="#">
+                      <Link to="#">
                         <i className="fa-brands fa-linkedin-in" />
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href="#">
+                      <Link to="#">
                         <i className="fa-brands fa-pinterest" />
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href="#">
+                      <Link to="#">
                         <i className="fa-brands fa-instagram" />
-                      </a>
+                      </Link>
                     </li>
                   </ul>
                 </div>

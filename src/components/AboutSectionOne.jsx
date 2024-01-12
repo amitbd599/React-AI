@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const AboutSectionOne = () => {
   return (
@@ -30,15 +31,15 @@ const AboutSectionOne = () => {
                         Impressive Works <br /> Since 2010
                       </h3>
                       <div className="video-intro ">
-                        <a
-                          href="https://www.youtube.com/watch?v=Ke90Tje7VS0"
+                        <Link
+                          to="https://www.youtube.com/watch?v=Ke90Tje7VS0"
                           className="popup-video"
                         >
                           <span className="icon">
                             <i className="fa-solid fa-play" />
                           </span>
                           <span className="text">Watch Intro</span>
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </div>
@@ -98,9 +99,9 @@ const AboutSectionOne = () => {
                 </div>
                 <div className="inner-btn">
                   <div>
-                    <a className="default-btn" href="contact.html">
+                    <Link className="default-btn" to="/contact">
                       Learn About AI
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>

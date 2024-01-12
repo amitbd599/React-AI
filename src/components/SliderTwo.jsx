@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const SliderTwo = () => {
     return (
@@ -42,9 +43,9 @@ const SliderTwo = () => {
                                 </p>
                                 <div className="inner-btn">
                                     <div>
-                                        <a className="default-btn" href="contact.html">
+                                        <Link className="default-btn" to="/contact">
                                             Get Started Project
-                                        </a>
+                                        </Link>
                                     </div>
                                 </div>
                             </div>

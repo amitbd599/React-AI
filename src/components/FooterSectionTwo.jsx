@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const FooterSectionTwo = () => {
   return (
@@ -35,9 +36,9 @@ const FooterSectionTwo = () => {
                         type="text"
                         placeholder="Enter Your Email Address"
                       />
-                      <a className="submit" href="#">
+                      <Link className="submit" to="#">
                         Sign Up Free
-                      </a>
+                      </Link>
                     </div>
                   </form>
                 </div>
@@ -46,18 +47,18 @@ const FooterSectionTwo = () => {
                   data-aos="fade-up"
                   data-aos-delay="500"
                 >
-                  <a href="#">
+                  <Link to="#">
                     <i className="fa-brands fa-facebook-f" />
-                  </a>
-                  <a href="#">
+                  </Link>
+                  <Link to="#">
                     <i className="fa-brands fa-twitter" />
-                  </a>
-                  <a href="#">
+                  </Link>
+                  <Link to="#">
                     <i className="fa-brands fa-linkedin-in" />
-                  </a>
-                  <a href="#">
+                  </Link>
+                  <Link to="#">
                     <i className="fa-brands fa-instagram" />
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -68,28 +69,28 @@ const FooterSectionTwo = () => {
                 </h2>
                 <ul data-aos="fade-up" data-aos-delay="300">
                   <li>
-                    <a href="#">About Us</a>
+                    <Link to="#">About Us</Link>
                   </li>
                   <li>
-                    <a href="#">Services</a>
+                    <Link to="#">Services</Link>
                   </li>
                   <li>
-                    <a href="#">Blog</a>
+                    <Link to="#">Blog</Link>
                   </li>
                   <li>
-                    <a href="#">Pricing Plan</a>
+                    <Link to="#">Pricing Plan</Link>
                   </li>
                   <li>
-                    <a href="#">Our Team</a>
+                    <Link to="#">Our Team</Link>
                   </li>
                   <li>
-                    <a href="#">All Projects</a>
+                    <Link to="#">All Projects</Link>
                   </li>
                   <li>
-                    <a href="#">Contact</a>
+                    <Link to="#">Contact</Link>
                   </li>
                   <li>
-                    <a href="#">Trams &amp; Condition</a>
+                    <Link to="#">Trams &amp; Condition</Link>
                   </li>
                 </ul>
               </div>
@@ -101,22 +102,22 @@ const FooterSectionTwo = () => {
                 </h2>
                 <ul data-aos="fade-up" data-aos-delay="300">
                   <li>
-                    <a href="#">Credit industry</a>
+                    <Link to="#">Credit industry</Link>
                   </li>
                   <li>
-                    <a href="#">Research sector</a>
+                    <Link to="#">Research sector</Link>
                   </li>
                   <li>
-                    <a href="#">Finance Sector</a>
+                    <Link to="#">Finance Sector</Link>
                   </li>
                   <li>
-                    <a href="#">Credit industry</a>
+                    <Link to="#">Credit industry</Link>
                   </li>
                   <li>
-                    <a href="#">AI Research</a>
+                    <Link to="#">AI Research</Link>
                   </li>
                   <li>
-                    <a href="#">ICT industry</a>
+                    <Link to="#">ICT industry</Link>
                   </li>
                 </ul>
               </div>
@@ -128,58 +129,58 @@ const FooterSectionTwo = () => {
                 </h2>
                 <ul data-aos="fade-up" data-aos-delay="300">
                   <li>
-                    <a href="project-details.html">
+                    <Link to="project-details">
                       <img
                         className="img-fluid"
                         src="/assets/img/project/01_project.png"
                         alt=""
                       />
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="project-details.html">
+                    <Link to="project-details">
                       <img
                         className="img-fluid"
                         src="/assets/img/project/02_project.png"
                         alt=""
                       />
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="project-details.html">
+                    <Link to="project-details">
                       <img
                         className="img-fluid"
                         src="/assets/img/project/03_project.png"
                         alt=""
                       />
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="project-details.html">
+                    <Link to="project-details">
                       <img
                         className="img-fluid"
                         src="/assets/img/project/04_project.png"
                         alt=""
                       />
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="project-details.html">
+                    <Link to="project-details">
                       <img
                         className="img-fluid"
                         src="/assets/img/project/05_project.png"
                         alt=""
                       />
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="project-details.html">
+                    <v to="project-details">
                       <img
                         className="img-fluid"
                         src="/assets/img/project/06_project.png"
                         alt=""
                       />
-                    </a>
+                    </v>
                   </li>
                 </ul>
               </div>

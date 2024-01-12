@@ -1,6 +1,7 @@
 import React, { Fragment, Suspense } from "react";
 import Preloader from "../elements/Preloader";
 import HeaderOne from "../components/HeaderOne";
+import { Link } from "react-router-dom";
 
 const Demo = () => {
   return (
@@ -104,7 +105,7 @@ const Demo = () => {
             <br />
             <div className="row">
               <div className="col-lg-4 col-md-6 col-12">
-                <a href="index-1.html">
+                <Link to="/index">
                   <div className="wrapper">
                     <div
                       className="img-file "
@@ -121,10 +122,10 @@ const Demo = () => {
                       <h2>Home Demo - 1</h2>
                     </div>
                   </div>
-                </a>
+                </Link>
               </div>
               <div className="col-lg-4 col-md-6 col-12">
-                <a href="index-2.html">
+                <Link to="/index-2">
                   <div
                     className="wrapper "
                     data-aos="fade-up"
@@ -141,10 +142,10 @@ const Demo = () => {
                       <h2>Home Demo - 2</h2>
                     </div>
                   </div>
-                </a>
+                </Link>
               </div>
               <div className="col-lg-4 col-md-6 col-12">
-                <a href="index-3.html">
+                <Link to="/index-3">
                   <div
                     className="wrapper "
                     data-aos="fade-up"
@@ -161,7 +162,7 @@ const Demo = () => {
                       <h2>Home Demo - 3</h2>
                     </div>
                   </div>
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -181,7 +182,7 @@ const Demo = () => {
             <br />
             <div className="row">
               <div className="col-lg-4 col-md-6 col-12">
-                <a href="about.html">
+                <Link to="/about">
                   <div
                     className="wrapper "
                     data-aos="fade-up"
@@ -198,10 +199,10 @@ const Demo = () => {
                       <h2>About Us</h2>
                     </div>
                   </div>
-                </a>
+                </Link>
               </div>
               <div className="col-lg-4 col-md-6 col-12">
-                <a href="team.html">
+                <Link to="/team">
                   <div
                     className="wrapper "
                     data-aos="fade-up"
@@ -218,10 +219,10 @@ const Demo = () => {
                       <h2>Team</h2>
                     </div>
                   </div>
-                </a>
+                </Link>
               </div>
               <div className="col-lg-4 col-md-6 col-12">
-                <a href="project.html">
+                <Link to="/project">
                   <div
                     className="wrapper "
                     data-aos="fade-up"
@@ -238,10 +239,10 @@ const Demo = () => {
                       <h2>Projects</h2>
                     </div>
                   </div>
-                </a>
+                </Link>
               </div>
               <div className="col-lg-4 col-md-6 col-12">
-                <a href="project-details.html">
+                <Link to="/project-details">
                   <div
                     className="wrapper "
                     data-aos="fade-up"
@@ -258,10 +259,10 @@ const Demo = () => {
                       <h2>Projects-Details</h2>
                     </div>
                   </div>
-                </a>
+                </Link>
               </div>
               <div className="col-lg-4 col-md-6 col-12">
-                <a href="service.html">
+                <Link to="/service">
                   <div
                     className="wrapper "
                     data-aos="fade-up"
@@ -278,10 +279,10 @@ const Demo = () => {
                       <h2>Service</h2>
                     </div>
                   </div>
-                </a>
+                </Link>
               </div>
               <div className="col-lg-4 col-md-6 col-12">
-                <a href="service-details.html">
+                <Link to="/service-details">
                   <div
                     className="wrapper "
                     data-aos="fade-up"
@@ -298,10 +299,10 @@ const Demo = () => {
                       <h2>Service-Details</h2>
                     </div>
                   </div>
-                </a>
+                </Link>
               </div>
               <div className="col-lg-4 col-md-6 col-12">
-                <a href="pricing.html">
+                <Link to="/pricing">
                   <div
                     className="wrapper "
                     data-aos="fade-up"
@@ -318,10 +319,10 @@ const Demo = () => {
                       <h2>Price</h2>
                     </div>
                   </div>
-                </a>
+                </Link>
               </div>
               <div className="col-lg-4 col-md-6 col-12">
-                <a href="review.html">
+                <Link to="/review">
                   <div
                     className="wrapper "
                     data-aos="fade-up"
@@ -338,10 +339,10 @@ const Demo = () => {
                       <h2>Review</h2>
                     </div>
                   </div>
-                </a>
+                </Link>
               </div>
               <div className="col-lg-4 col-md-6 col-12">
-                <a href="faq.html">
+                <Link to="/faq">
                   <div
                     className="wrapper "
                     data-aos="fade-up"
@@ -358,10 +359,10 @@ const Demo = () => {
                       <h2>FAQ</h2>
                     </div>
                   </div>
-                </a>
+                </Link>
               </div>
               <div className="col-lg-4 col-md-6 col-12">
-                <a href="blog-grid.html  ">
+                <Link to="/blog-grid  ">
                   <div
                     className="wrapper "
                     data-aos="fade-up"
@@ -378,10 +379,10 @@ const Demo = () => {
                       <h2>Blog Grid</h2>
                     </div>
                   </div>
-                </a>
+                </Link>
               </div>
               <div className="col-lg-4 col-md-6 col-12">
-                <a href="blog-grid-sidebar.html">
+                <Link to="/blog-grid-sidebar">
                   <div
                     className="wrapper "
                     data-aos="fade-up"
@@ -398,10 +399,10 @@ const Demo = () => {
                       <h2>Blog Grid Sidebar</h2>
                     </div>
                   </div>
-                </a>
+                </Link>
               </div>
               <div className="col-lg-4 col-md-6 col-12">
-                <a href="blog-details.html ">
+                <Link to="/blog-details ">
                   <div
                     className="wrapper "
                     data-aos="fade-up"
@@ -418,10 +419,10 @@ const Demo = () => {
                       <h2>Blog Details</h2>
                     </div>
                   </div>
-                </a>
+                </Link>
               </div>
               <div className="col-lg-4 col-md-6 col-12">
-                <a href="contact.html">
+                <Link to="/contact">
                   <div
                     className="wrapper "
                     data-aos="fade-up"
@@ -438,10 +439,10 @@ const Demo = () => {
                       <h2>Contact</h2>
                     </div>
                   </div>
-                </a>
+                </Link>
               </div>
               <div className="col-lg-4 col-md-6 col-12">
-                <a href="404.html">
+                <Link to="/error">
                   <div
                     className="wrapper "
                     data-aos="fade-up"
@@ -458,7 +459,7 @@ const Demo = () => {
                       <h2>404 Error</h2>
                     </div>
                   </div>
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -483,12 +484,12 @@ const Demo = () => {
                     Awesome Website
                   </h2>
                   <div className="d-adjust my-btn">
-                    <a
+                    <Link
                       className="default-btn"
-                      href="https://www.templatemonster.com/authors/themesoft69/"
+                      to="https://www.templatemonster.com/authors/themesoft69/"
                     >
                       Purchase Now
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>

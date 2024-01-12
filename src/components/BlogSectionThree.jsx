@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const BlogSectionThree = () => {
   return (
@@ -47,15 +48,15 @@ const BlogSectionThree = () => {
                       </span>
                     </div>
                     <h2>
-                      <a href="#">Professional Technology information.</a>
+                      <Link to="#">Professional Technology information.</Link>
                     </h2>
                     <p>
                       Ensure your IT infrastructure remains resilient when
                       adopting trans formative technologies.
                     </p>
-                    <a className="link" href="blog-details.html">
+                    <Link className="link" to="/blog-details">
                       Read More
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -81,15 +82,15 @@ const BlogSectionThree = () => {
                       </span>
                     </div>
                     <h2>
-                      <a href="#">AI consulting solutions you achieve.</a>
+                      <Link to="#">AI consulting solutions you achieve.</Link>
                     </h2>
                     <p>
                       Ensure your IT infrastructure remains resilient when
                       adopting trans formative technologies.
                     </p>
-                    <a className="link" href="blog-details.html">
+                    <Link className="link" to="/blog-details">
                       Read More
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -115,15 +116,15 @@ const BlogSectionThree = () => {
                       </span>
                     </div>
                     <h2>
-                      <a href="#">We offer AI consulting services.</a>
+                      <Link to="#">We offer AI consulting services.</Link>
                     </h2>
                     <p>
                       Ensure your IT infrastructure remains resilient when
                       adopting trans formative technologies.
                     </p>
-                    <a className="link" href="blog-details.html">
+                    <Link className="link" to="/blog-details">
                       Read More
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -131,9 +132,9 @@ const BlogSectionThree = () => {
           </div>
           <div className="inner-btn d-adjust">
             <div>
-              <a className="default-btn" href="blog.html">
+              <Link className="default-btn" to="/blog">
                 View More Blogs
-              </a>
+              </Link>
             </div>
           </div>
         </div>

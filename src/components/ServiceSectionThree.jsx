@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { Swiper, SwiperSlide } from "swiper/react";
 const ServiceSectionThree = () => {
   return (
@@ -71,16 +72,16 @@ const ServiceSectionThree = () => {
                         </div>
                         <div className="text-file">
                           <h2 className="title">
-                            <a href="service-details.html">
+                            <Link to="/service-details">
                               Transform Data Insights
-                            </a>
+                            </Link>
                           </h2>
                           <p>
                             Ensure your IT infrastructure remains resilient when
                             adopting trans formative technologies.
                           </p>
                           <div className="link">
-                            <a href="service-details.html">Read More</a>
+                            <Link to="/service-details">Read More</Link>
                           </div>
                           <div className="shape-overlay">
                             <img src="/assets/img/shape/15_shape.svg" alt="" />
@@ -101,16 +102,16 @@ const ServiceSectionThree = () => {
                         </div>
                         <div className="text-file">
                           <h2 className="title">
-                            <a href="service-details.html">
+                            <Link to="/service-details">
                               Shine a light on dark Light
-                            </a>
+                            </Link>
                           </h2>
                           <p>
                             Ensure your IT infrastructure remains resilient when
                             adopting trans formative technologies.
                           </p>
                           <div className="link">
-                            <a href="service-details.html">Read More</a>
+                            <Link to="/service-details">Read More</Link>
                           </div>
                           <div className="shape-overlay">
                             <img src="/assets/img/shape/15_shape.svg" alt="" />
@@ -131,16 +132,16 @@ const ServiceSectionThree = () => {
                         </div>
                         <div className="text-file">
                           <h2 className="title">
-                            <a href="service-details.html">
+                            <Link to="/service-details">
                               Achieve Faster Objectives
-                            </a>
+                            </Link>
                           </h2>
                           <p>
                             Ensure your IT infrastructure remains resilient when
                             adopting trans formative technologies.
                           </p>
                           <div className="link">
-                            <a href="service-details.html">Read More</a>
+                            <Link to="/service-details">Read More</Link>
                           </div>
                           <div className="shape-overlay">
                             <img src="/assets/img/shape/15_shape.svg" alt="" />
@@ -161,16 +162,16 @@ const ServiceSectionThree = () => {
                         </div>
                         <div className="text-file">
                           <h2 className="title">
-                            <a href="service-details.html">
+                            <Link to="/service-details">
                               Benefits Of Implementing
-                            </a>
+                            </Link>
                           </h2>
                           <p>
                             Ensure your IT infrastructure remains resilient when
                             adopting trans formative technologies.
                           </p>
                           <div className="link">
-                            <a href="service-details.html">Read More</a>
+                            <Link to="/service-details">Read More</Link>
                           </div>
                           <div className="shape-overlay">
                             <img src="/assets/img/shape/15_shape.svg" alt="" />
@@ -192,16 +193,16 @@ const ServiceSectionThree = () => {
                         </div>
                         <div className="text-file">
                           <h2 className="title">
-                            <a href="service-details.html">
+                            <Link to="/service-details">
                               Efficiency &amp; Productivity
-                            </a>
+                            </Link>
                           </h2>
                           <p>
                             Ensure your IT infrastructure remains resilient when
                             adopting trans formative technologies.
                           </p>
                           <div className="link">
-                            <a href="service-details.html">Read More</a>
+                            <Link to="/service-details">Read More</Link>
                           </div>
                           <div className="shape-overlay">
                             <img
@@ -221,9 +222,9 @@ const ServiceSectionThree = () => {
         </div>
         <div className="inner-btn d-adjust">
           <div>
-            <a className="default-btn" href="service.html">
+            <Link className="default-btn" to="/service">
               View All Services
-            </a>
+            </Link>
           </div>
         </div>
         <div className="shape-img">

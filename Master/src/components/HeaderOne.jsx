@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 const HeaderOne = () => {
   const [active, setActive] = useState(false);
@@ -62,13 +62,13 @@ const HeaderOne = () => {
             <div className="col-xl-3 col-lg-2 col-md-6 col-6">
               <div className="logo-area">
                 <div className="logo">
-                  <Link to="/index">
+                  <NavLink to="/index">
                     <img
                       className="img-fluid"
                       src="assets/img/common/logo-white.png"
                       alt=""
                     />
-                  </Link>
+                  </NavLink>
                 </div>
               </div>
             </div>
@@ -78,54 +78,152 @@ const HeaderOne = () => {
                   <nav>
                     <ul>
                       <li className="has-dropdown">
-                        <Link to="/index">Home</Link>
+                        <NavLink to="/index">Home</NavLink>
                         <ul className="sub-menu">
-                          <li className="active">
-                            <Link to="/">Demo</Link>
+                          <li>
+                            <NavLink
+                              to="/"
+                              className={(navData) =>
+                                navData.isActive ? "active" : ""
+                              }
+                            >
+                              Demo
+                            </NavLink>
                           </li>
                           <li>
-                            <Link to="/index">Home One</Link>
+                            <NavLink
+                              to="/index"
+                              className={(navData) =>
+                                navData.isActive ? "active" : ""
+                              }
+                            >
+                              Home One
+                            </NavLink>
                           </li>
                           <li>
-                            <Link to="/index-2">Home Two</Link>
+                            <NavLink
+                              to="/index-2"
+                              className={(navData) =>
+                                navData.isActive ? "active" : ""
+                              }
+                            >
+                              Home Two
+                            </NavLink>
                           </li>
                           <li>
-                            <Link to="/index-3">Home Three</Link>
+                            <NavLink
+                              to="/index-3"
+                              className={(navData) =>
+                                navData.isActive ? "active" : ""
+                              }
+                            >
+                              Home Three
+                            </NavLink>
                           </li>
                         </ul>
                       </li>
                       <li>
-                        <Link to="/about">About Us</Link>
+                        <NavLink
+                          to="/about"
+                          className={(navData) =>
+                            navData.isActive ? "active" : ""
+                          }
+                        >
+                          About Us
+                        </NavLink>
                       </li>
                       <li className="has-dropdown">
                         <Link to="#">Pages</Link>
                         <ul className="sub-menu">
                           <li>
-                            <Link to="/team">Team</Link>
+                            <NavLink
+                              to="/team"
+                              className={(navData) =>
+                                navData.isActive ? "active" : ""
+                              }
+                            >
+                              Team
+                            </NavLink>
                           </li>
                           <li>
-                            <Link to="/project">Project</Link>
+                            <NavLink
+                              to="/project"
+                              className={(navData) =>
+                                navData.isActive ? "active" : ""
+                              }
+                            >
+                              Project
+                            </NavLink>
                           </li>
                           <li>
-                            <Link to="/project-details">Project Details</Link>
+                            <NavLink
+                              to="/project-details"
+                              className={(navData) =>
+                                navData.isActive ? "active" : ""
+                              }
+                            >
+                              Project Details
+                            </NavLink>
                           </li>
                           <li>
-                            <Link to="/service">Service</Link>
+                            <NavLink
+                              to="/service"
+                              className={(navData) =>
+                                navData.isActive ? "active" : ""
+                              }
+                            >
+                              Service
+                            </NavLink>
                           </li>
                           <li>
-                            <Link to="/service-details">Service Details</Link>
+                            <NavLink
+                              to="/service-details"
+                              className={(navData) =>
+                                navData.isActive ? "active" : ""
+                              }
+                            >
+                              Service Details
+                            </NavLink>
                           </li>
                           <li>
-                            <Link to="/pricing">Pricing</Link>
+                            <NavLink
+                              to="/pricing"
+                              className={(navData) =>
+                                navData.isActive ? "active" : ""
+                              }
+                            >
+                              Pricing
+                            </NavLink>
                           </li>
                           <li>
-                            <Link to="/review">Review</Link>
+                            <NavLink
+                              to="/review"
+                              className={(navData) =>
+                                navData.isActive ? "active" : ""
+                              }
+                            >
+                              Review
+                            </NavLink>
                           </li>
                           <li>
-                            <Link to="/faq">FAQ</Link>
+                            <NavLink
+                              to="/faq"
+                              className={(navData) =>
+                                navData.isActive ? "active" : ""
+                              }
+                            >
+                              FAQ
+                            </NavLink>
                           </li>
                           <li>
-                            <Link to="/error">404 Page</Link>
+                            <NavLink
+                              to="/error"
+                              className={(navData) =>
+                                navData.isActive ? "active" : ""
+                              }
+                            >
+                              404 Page
+                            </NavLink>
                           </li>
                         </ul>
                       </li>
@@ -133,23 +231,56 @@ const HeaderOne = () => {
                         <Link to="blog-grid">Blog</Link>
                         <ul className="sub-menu">
                           <li>
-                            <Link to="/blog-grid">Blog-Grid</Link>
+                            <NavLink
+                              to="/blog-grid"
+                              className={(navData) =>
+                                navData.isActive ? "active" : ""
+                              }
+                            >
+                              Blog-Grid
+                            </NavLink>
                           </li>
                           <li>
-                            <Link to="/blog-grid-sidebar">
+                            <NavLink
+                              to="/blog-grid-sidebar"
+                              className={(navData) =>
+                                navData.isActive ? "active" : ""
+                              }
+                            >
                               Blog-Grid Sidebar
-                            </Link>
+                            </NavLink>
                           </li>
                           <li>
-                            <Link to="/blog-list">Blog-List</Link>
+                            <NavLink
+                              to="/blog-list"
+                              className={(navData) =>
+                                navData.isActive ? "active" : ""
+                              }
+                            >
+                              Blog-List
+                            </NavLink>
                           </li>
                           <li>
-                            <Link to="/blog-details">Blog Details</Link>
+                            <NavLink
+                              to="/blog-details"
+                              className={(navData) =>
+                                navData.isActive ? "active" : ""
+                              }
+                            >
+                              Blog Details
+                            </NavLink>
                           </li>
                         </ul>
                       </li>
                       <li>
-                        <Link to="/contact">Contact</Link>
+                        <NavLink
+                          to="/contact"
+                          className={(navData) =>
+                            navData.isActive ? "active" : ""
+                          }
+                        >
+                          Contact
+                        </NavLink>
                       </li>
                     </ul>
                   </nav>
@@ -192,9 +323,9 @@ const HeaderOne = () => {
           </div>
           <div className="sidebar__content">
             <div className="sidebar-logo mb-40 mt-40">
-              <Link to="/index">
+              <NavLink to="/index">
                 <img src="assets/img/common/logo-white.png" alt="logo" />
-              </Link>
+              </NavLink>
             </div>
             <div className="sidebar__search mb-25">
               <form action="#">
@@ -207,73 +338,200 @@ const HeaderOne = () => {
             <nav className="offcanvas-navigation" id="offcanvas-navigation">
               <ul>
                 <li className="menu-item-has-children">
-                  <Link to="/index">Home</Link>
+                  <NavLink
+                    to="/index"
+                    className={(navData) => (navData.isActive ? "active" : "")}
+                  >
+                    Home
+                  </NavLink>
                   <ul className="sub-menu">
                     <li className="active">
-                      <Link to="/index">Home One</Link>
+                      <NavLink
+                        to="/index"
+                        className={(navData) =>
+                          navData.isActive ? "active" : ""
+                        }
+                      >
+                        Home One
+                      </NavLink>
                     </li>
                     <li>
-                      <Link to="/index-2">Home Two</Link>
+                      <NavLink
+                        to="/index-2"
+                        className={(navData) =>
+                          navData.isActive ? "active" : ""
+                        }
+                      >
+                        Home Two
+                      </NavLink>
                     </li>
                     <li>
-                      <Link to="/index-3">Home Three</Link>
+                      <NavLink
+                        to="/index-3"
+                        className={(navData) =>
+                          navData.isActive ? "active" : ""
+                        }
+                      >
+                        Home Three
+                      </NavLink>
                     </li>
                   </ul>
                 </li>
                 <li>
-                  <Link to="/about">About Us</Link>
+                  <NavLink
+                    to="/about"
+                    className={(navData) => (navData.isActive ? "active" : "")}
+                  >
+                    About Us
+                  </NavLink>
                 </li>
                 <li className="menu-item-has-children">
                   <Link to="#">Pages</Link>
                   <ul className="sub-menu">
                     <li>
-                      <Link to="/team">Team</Link>
+                      <NavLink
+                        to="/team"
+                        className={(navData) =>
+                          navData.isActive ? "active" : ""
+                        }
+                      >
+                        Team
+                      </NavLink>
                     </li>
                     <li>
-                      <Link to="/project">Project</Link>
+                      <NavLink
+                        to="/project"
+                        className={(navData) =>
+                          navData.isActive ? "active" : ""
+                        }
+                      >
+                        Project
+                      </NavLink>
                     </li>
                     <li>
-                      <Link to="/project-details">Project Details</Link>
+                      <NavLink
+                        to="/project-details"
+                        className={(navData) =>
+                          navData.isActive ? "active" : ""
+                        }
+                      >
+                        Project Details
+                      </NavLink>
                     </li>
                     <li>
-                      <Link to="/service">Service</Link>
+                      <NavLink
+                        to="/service"
+                        className={(navData) =>
+                          navData.isActive ? "active" : ""
+                        }
+                      >
+                        Service
+                      </NavLink>
                     </li>
                     <li>
-                      <Link to="/service-details">Service Details</Link>
+                      <NavLink
+                        to="/service-details"
+                        className={(navData) =>
+                          navData.isActive ? "active" : ""
+                        }
+                      >
+                        Service Details
+                      </NavLink>
                     </li>
                     <li>
-                      <Link to="/pricing">Pricing</Link>
+                      <NavLink
+                        to="/pricing"
+                        className={(navData) =>
+                          navData.isActive ? "active" : ""
+                        }
+                      >
+                        Pricing
+                      </NavLink>
                     </li>
                     <li>
-                      <Link to="/review">Review</Link>
+                      <NavLink
+                        to="/review"
+                        className={(navData) =>
+                          navData.isActive ? "active" : ""
+                        }
+                      >
+                        Review
+                      </NavLink>
                     </li>
                     <li>
-                      <Link to="/faq">FAQ</Link>
+                      <NavLink
+                        to="/faq"
+                        className={(navData) =>
+                          navData.isActive ? "active" : ""
+                        }
+                      >
+                        FAQ
+                      </NavLink>
                     </li>
                     <li>
-                      <Link to="/error">404 Page</Link>
+                      <NavLink
+                        to="/error"
+                        className={(navData) =>
+                          navData.isActive ? "active" : ""
+                        }
+                      >
+                        404 Page
+                      </NavLink>
                     </li>
                   </ul>
                 </li>
                 <li className="has-dropdown">
-                  <Link to="/blog-grid">Blog</Link>
+                  <Link to="#">Blog</Link>
                   <ul className="sub-menu">
                     <li>
-                      <Link to="/blog-grid">Blog-Grid</Link>
+                      <NavLink
+                        to="/blog-grid"
+                        className={(navData) =>
+                          navData.isActive ? "active" : ""
+                        }
+                      >
+                        Blog-Grid
+                      </NavLink>
                     </li>
                     <li>
-                      <Link to="/blog-grid-sidebar">Blog-Grid Sidebar</Link>
+                      <NavLink
+                        to="/blog-grid-sidebar"
+                        className={(navData) =>
+                          navData.isActive ? "active" : ""
+                        }
+                      >
+                        Blog-Grid Sidebar
+                      </NavLink>
                     </li>
                     <li>
-                      <Link to="/blog-list">Blog-List</Link>
+                      <NavLink
+                        to="/blog-list"
+                        className={(navData) =>
+                          navData.isActive ? "active" : ""
+                        }
+                      >
+                        Blog-List
+                      </NavLink>
                     </li>
                     <li>
-                      <Link to="/blog-details">Blog Details</Link>
+                      <NavLink
+                        to="/blog-details"
+                        className={(navData) =>
+                          navData.isActive ? "active" : ""
+                        }
+                      >
+                        Blog Details
+                      </NavLink>
                     </li>
                   </ul>
                 </li>
                 <li>
-                  <Link to="/contact">Contact</Link>
+                  <NavLink
+                    to="/contact"
+                    className={(navData) => (navData.isActive ? "active" : "")}
+                  >
+                    Contact
+                  </NavLink>
                 </li>
               </ul>
             </nav>

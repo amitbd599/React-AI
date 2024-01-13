@@ -55,12 +55,11 @@
               &:hover {
                 color: var(--theme-1);
               }
-            }
-            &.active {
-              a {
+              &.active {
                 color: var(--theme-1);
               }
             }
+
             &.has-dropdown {
               a {
                 padding-right: 14px;
@@ -111,11 +110,10 @@
                     &::after {
                       display: none;
                     }
-                  }
-                  &:hover,
-                  &.active {
-                    background: var(--theme-1);
-                    a {
+                    &:hover,
+                    &.active {
+                      background: var(--theme-1);
+
                       color: var(--common-white);
                     }
                   }

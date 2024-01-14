@@ -18,7 +18,7 @@ const BlogGrid = () => {
   return (
     <Fragment>
       <Suspense>
-        ${active === true && <Preloader />}
+        {active === true && <Preloader />}
         {/* Helmet */}
         <HelmetReact title={"Blog Grid"} />
         {/* Header one */}

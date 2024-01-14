@@ -20,7 +20,7 @@ const About = () => {
   return (
     <Fragment>
       <Suspense>
-        ${active === true && <Preloader />}
+        {active === true && <Preloader />}
         {/* Helmet */}
         <HelmetReact title={"About"} />
         {/* Header one */}

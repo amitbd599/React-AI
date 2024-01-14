@@ -18,7 +18,7 @@ const BlogList = () => {
   return (
     <Fragment>
       <Suspense>
-        ${active === true && <Preloader />}
+        {active === true && <Preloader />}
         {/* Helmet */}
         <HelmetReact title={"Blog List"} />
         {/* Header one */}

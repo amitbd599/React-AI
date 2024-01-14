@@ -18,7 +18,7 @@ const Pricing = () => {
   return (
     <Fragment>
       <Suspense>
-        ${active === true && <Preloader />}
+        {active === true && <Preloader />}
         {/* Helmet */}
         <HelmetReact title={"Pricing"} />
         {/* Header one */}

@@ -18,7 +18,7 @@ const Team = () => {
   return (
     <Fragment>
       <Suspense>
-        ${active === true && <Preloader />}
+        {active === true && <Preloader />}
         {/* Helmet */}
         <HelmetReact title={"Team"} />
         {/* Header one */}

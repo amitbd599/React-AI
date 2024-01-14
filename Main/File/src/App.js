@@ -1,6 +1,6 @@
-import "./App.scss";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { useEffect } from "react";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import "./App.scss";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import Demo from "./pages/Demo";
@@ -37,8 +37,6 @@ function App() {
 
   return (
     <BrowserRouter>
-      <RouteScrollToTop />
-      <ScrollToTop smooth color="#fff" />
       <Routes>
         <Route exact path="/" element={<Demo />} />
         <Route exact path="/index" element={<HomeOne />} />
@@ -60,6 +58,8 @@ function App() {
         <Route exact path="/team" element={<Team />} />
         <Route exact path="*" element={<Error />} />
       </Routes>
+      <RouteScrollToTop />
+      <ScrollToTop smooth color="#fff" />
     </BrowserRouter>
   );
 }

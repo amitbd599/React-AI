@@ -64,7 +64,7 @@ const CounterSectionOne = () => {
               <div className="col-lg-6">
                 <div
                   className="left-wrapper "
-                  data-aos="fade-right"
+                  data-aos="fade-up"
                   data-aos-delay="300"
                 >
                   <div className="title-des">
@@ -110,14 +110,14 @@ const CounterSectionOne = () => {
                 </div>
               </div>
               <div className="col-lg-6">
-                <div
-                  className="right-wrapper "
-                  data-aos="fade-left"
-                  data-aos-delay="300"
-                >
+                <div className="right-wrapper ">
                   <div className="d-sm-flex d-block gap-4">
                     <div>
-                      <div className="item">
+                      <div
+                        className="item"
+                        data-aos="fade-up"
+                        data-aos-delay="300"
+                      >
                         <div className="count-body">
                           <h2 className="counter">
                             <ReactVisibilitySensor>
@@ -135,7 +135,11 @@ const CounterSectionOne = () => {
                           <h3>Years Of Experience</h3>
                         </div>
                       </div>
-                      <div className="item mt-30">
+                      <div
+                        className="item mt-30"
+                        data-aos="fade-up"
+                        data-aos-delay="300"
+                      >
                         <div className="count-body">
                           <h2 className="counter">
                             <ReactVisibilitySensor>
@@ -155,7 +159,11 @@ const CounterSectionOne = () => {
                       </div>
                     </div>
                     <div className="mt-4">
-                      <div className="item">
+                      <div
+                        className="item"
+                        data-aos="fade-up"
+                        data-aos-delay="400"
+                      >
                         <div className="count-body">
                           <h2 className="counter">
                             <ReactVisibilitySensor>
@@ -173,7 +181,11 @@ const CounterSectionOne = () => {
                           <h3>Expert Team Member</h3>
                         </div>
                       </div>
-                      <div className="item mt-30">
+                      <div
+                        className="item mt-30"
+                        data-aos="fade-up"
+                        data-aos-delay="400"
+                      >
                         <div className="count-body">
                           <h2 className="counter">
                             <ReactVisibilitySensor>

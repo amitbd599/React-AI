@@ -14,7 +14,7 @@ const Error = () => {
   return (
     <Fragment>
       <Suspense>
-        ${active === true && <Preloader />}
+        {active === true && <Preloader />}
         {/* Helmet */}
         <HelmetReact title={"Error"} />
         {/* Error Section start */}

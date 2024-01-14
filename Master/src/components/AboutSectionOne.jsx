@@ -13,7 +13,7 @@ const AboutSectionOne = () => {
                 <div className=" img-file ">
                   <img
                     className=" img-fluid "
-                    data-aos="fade-right"
+                    data-aos="fade-up"
                     data-aos-delay="200"
                     src="/assets/img/about/01_about.png"
                     alt=""
@@ -52,8 +52,8 @@ const AboutSectionOne = () => {
             <div className="col-lg-6">
               <div
                 className="right-wrapper "
-                data-aos="fade-left"
-                data-aos-delay="300"
+                data-aos="fade-up"
+                data-aos-delay="400"
               >
                 <div className="section-title-shape-one">
                   <h3>ABOUT COMPANY</h3>

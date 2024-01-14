@@ -31,8 +31,8 @@ const PriceSectionOne = () => {
               <div className="col-lg-4 col-md-6">
                 <div
                   className="price-inner down "
-                  data-aos="fade-right"
-                  data-aos-delay="300"
+                  data-aos="fade-up"
+                  data-aos-delay="200"
                 >
                   <div className="price">
                     <h4>$</h4>
@@ -87,8 +87,8 @@ const PriceSectionOne = () => {
               <div className="col-lg-4 col-md-6">
                 <div
                   className="price-inner down "
-                  data-aos="fade-left"
-                  data-aos-delay="300"
+                  data-aos="fade-up"
+                  data-aos-delay="400"
                 >
                   <div className="price">
                     <h4>$</h4>

@@ -23,7 +23,7 @@ const HomeTwo = () => {
   return (
     <Fragment>
       <Suspense>
-        ${active === true && <Preloader />}
+        {active === true && <Preloader />}
         {/* Helmet */}
         <HelmetReact title={"Home"} />
         {/* Header one */}

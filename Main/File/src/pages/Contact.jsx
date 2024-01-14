@@ -18,7 +18,7 @@ const Contact = () => {
   return (
     <Fragment>
       <Suspense>
-        ${active === true && <Preloader />}
+        {active === true && <Preloader />}
         {/* Helmet */}
         <HelmetReact title={"Contact"} />
         {/* Header one */}

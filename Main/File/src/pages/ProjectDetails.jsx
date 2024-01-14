@@ -18,7 +18,7 @@ const ProjectDetails = () => {
   return (
     <Fragment>
       <Suspense>
-        ${active === true && <Preloader />}
+        {active === true && <Preloader />}
         {/* Helmet */}
         <HelmetReact title={"Project Details"} />
         {/* Header one */}

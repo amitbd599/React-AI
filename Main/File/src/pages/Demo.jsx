@@ -14,7 +14,7 @@ const Demo = () => {
   return (
     <Fragment>
       <Suspense>
-        ${active === true && <Preloader />}
+        {active === true && <Preloader />}
         {/* Header one */}
         <HeaderOne />
         {/* Intro Section Start */}

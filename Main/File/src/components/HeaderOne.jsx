@@ -78,7 +78,7 @@ const HeaderOne = () => {
                   <nav>
                     <ul>
                       <li className="has-dropdown">
-                        <NavLink to="/index">Home</NavLink>
+                        <Link to="#">Home</Link>
                         <ul className="sub-menu">
                           <li>
                             <NavLink
